@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОтправитьПослание" id="37">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОтправитьПослание</CommandName>
+				<ExtendedTooltip name="ФормаОтправитьПосланиеРасширеннаяПодсказка" id="38"/>
+			</Button>
+			<Button name="ФормаОтправитьПосланиеИУдалитьРегистрацию" id="39">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОтправитьПосланиеИУдалитьРегистрацию</CommandName>
+				<ExtendedTooltip name="ФормаОтправитьПосланиеИУдалитьРегистрациюРасширеннаяПодсказка" id="40"/>
+			</Button>
+			<Popup name="ГруппаОбработчики" id="45">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Обработчики</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа обработчики</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ГруппаОбработчикиРасширеннаяПодсказка" id="46"/>
+				<ChildItems>
+					<Button name="ФормаОткрытьОбработчикРегистрацииИзмененныхПриЗаписи" id="51">
+						<Type>CommandBarButton</Type>
+						<Visible>false</Visible>
+						<CommandName>Form.Command.ОткрытьОбработчикРегистрацииИзмененныхПриЗаписи</CommandName>
+						<ExtendedTooltip name="ФормаОткрытьОбработчикРегистрацииИзмененныхПриЗаписиРасширеннаяПодсказка" id="52"/>
+					</Button>
+					<Button name="ФормаОткрытьОбработчикРегистрацииИзмененныхПриОбмене" id="53">
+						<Type>CommandBarButton</Type>
+						<Visible>false</Visible>
+						<CommandName>Form.Command.ОткрытьОбработчикРегистрацииИзмененныхПриОбмене</CommandName>
+						<ExtendedTooltip name="ФормаОткрытьОбработчикРегистрацииИзмененныхПриОбменеРасширеннаяПодсказка" id="54"/>
+					</Button>
+					<Button name="ФормаОткрытьОбработчик" id="43">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОткрытьОбработчикАдресацииИзмененных</CommandName>
+						<ExtendedTooltip name="ФормаОткрытьОбработчикРасширеннаяПодсказка" id="44"/>
+					</Button>
+					<Button name="ФормаОткрытьОбработчикФормированияСообщения" id="47">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОткрытьОбработчикФормированияСообщения</CommandName>
+						<ExtendedTooltip name="ФормаОткрытьОбработчикФормированияСообщенияРасширеннаяПодсказка" id="48"/>
+					</Button>
+					<Button name="ФормаОткрытьОбработчикФормированияСообщенияДляУзла" id="49">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОткрытьОбработчикФормированияСообщенияДляУзла</CommandName>
+						<ExtendedTooltip name="ФормаОткрытьОбработчикФормированияСообщенияДляУзлаРасширеннаяПодсказка" id="50"/>
+					</Button>
+					<Button name="ФормаОткрытьОбработчикОтправкиСообщения" id="55">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОткрытьОбработчикОтправкиСообщения</CommandName>
+						<ExtendedTooltip name="ФормаОткрытьОбработчикОтправкиСообщенияРасширеннаяПодсказка" id="56"/>
+					</Button>
+					<Button name="ФормаОткрытьСписокОбработчиков" id="57">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОткрытьСписокОбработчиков</CommandName>
+						<ExtendedTooltip name="ФормаОткрытьСписокОбработчиковРасширеннаяПодсказка" id="58"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+			<Button name="ФормаПереключитьРегламентное" id="41">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПереключитьРегламентное</CommandName>
+				<ExtendedTooltip name="ФормаПереключитьРегламентноеРасширеннаяПодсказка" id="42"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Узел" id="16">
+					<DataPath>Список.Узел</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="УзелКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="УзелРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="Категория" id="19">
+					<DataPath>Список.Категория</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="КатегорияКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="КатегорияРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="Идентификатор" id="22">
+					<DataPath>Список.Идентификатор</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ИдентификаторКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="ДатаВремя" id="25">
+					<DataPath>Список.ДатаВремя</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ДатаВремяКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ДатаВремяРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<LabelField name="ВерсияДанных" id="28">
+					<DataPath>Список.ВерсияДанных</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ВерсияДанныхКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ВерсияДанныхРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="Ссылка" id="31">
+					<DataPath>Список.Ссылка</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<CheckBoxField name="ФлагОшибки" id="34">
+					<DataPath>Список.ФлагОшибки</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ФлагОшибкиКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ФлагОшибкиРасширеннаяПодсказка" id="36"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.обм_КОтправке</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОтправитьПослание" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить послание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьПослание</Action>
+		</Command>
+		<Command name="ОтправитьПосланиеИУдалитьРегистрацию" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить и удалить регистрацию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить послание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьПосланиеИУдалитьРегистрацию</Action>
+		</Command>
+		<Command name="ПереключитьРегламентное" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переключить регламентное</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переключить регламентное</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПереключитьРегламентное</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОткрытьОбработчикАдресацииИзмененных" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адресация измененных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть обработчик адресации измененных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьОбработчикАдресацииИзмененных</Action>
+		</Command>
+		<Command name="ОткрытьОбработчикФормированияСообщения" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Формирование сообщения по умолчанию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть обработчик формирования сообщения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьОбработчикФормированияСообщения</Action>
+		</Command>
+		<Command name="ОткрытьОбработчикФормированияСообщенияДляУзла" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Формирование сообщения для узла</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть обработчик формирования сообщения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьОбработчикФормированияСообщенияДляУзла</Action>
+		</Command>
+		<Command name="ОткрытьОбработчикРегистрацииИзмененныхПриЗаписи" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистрация измененных при записи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть обработчик адресации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьОбработчикРегистрацииИзмененныхПриЗаписи</Action>
+		</Command>
+		<Command name="ОткрытьОбработчикРегистрацииИзмененныхПриОбмене" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистрация измененных при обмене</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть обработчик адресации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьОбработчикРегистрацииИзмененныхПриОбмене</Action>
+		</Command>
+		<Command name="ОткрытьОбработчикОтправкиСообщения" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправка сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть обработчик отправки сообщения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьОбработчикОтправкиСообщения</Action>
+		</Command>
+		<Command name="ОткрытьСписокОбработчиков" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все обработчики</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть список обработчиков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьСписокОбработчиков</Action>
+		</Command>
+	</Commands>
+</Form>

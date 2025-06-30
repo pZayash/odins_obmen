@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.11">
+	<Item id="a6a72307-e7a1-4139-a3a0-8dee6f66f40a">
+		<Name>обм_ГруппаСлужебных</Name>
+		<Code>000000001</Code>
+		<Description>Служебные (обм)</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="976431da-1f2d-407c-be28-55cd71e04677">
+				<Name>обм_Измененные_Адресация</Name>
+				<Code>000001001</Code>
+				<Description>Адресация для отправки измененных объектов (обм)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="cb4c82bd-feb7-4850-8f60-6aa1e8bfaf87">
+				<Name>обм_ОтправитьПослание</Name>
+				<Code>000001004</Code>
+				<Description>Отправить послание (обм)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="275e003c-eedf-40c6-9514-ad0a292e8d97">
+				<Name>обм_Измененные_РегистрироватьПриЗаписи</Name>
+				<Code>000001000</Code>
+				<Description>Регистрировать измененные при записи (обм)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c9ec9eee-ee81-420e-b628-f8f13acb40e0">
+				<Name>обм_Измененные_РегистрироватьПриПоступленииПоОбмену</Name>
+				<Code>000001005</Code>
+				<Description>Регистрировать измененные при поступлении по обмену (обм)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1887b371-5b4f-4976-8469-acbc5fd17bdc">
+				<Name>обм_СфомироватьОбразОбъекта</Name>
+				<Code>000001002</Code>
+				<Description>Сфомировать образ объекта (обм)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a2fbc4c7-99b0-4fa3-8ffd-f7e1b17c6257">
+				<Name>обм_СфомироватьОбразОбъектаДляУзла</Name>
+				<Code>000001003</Code>
+				<Description>Сфомировать образ объекта для узла (обм)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

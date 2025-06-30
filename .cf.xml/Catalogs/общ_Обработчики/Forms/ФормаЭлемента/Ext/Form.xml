@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="ГруппаОСкрипте" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>О скрипте</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа о скрипте</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<CollapsedRepresentationTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>О скрипте (развернуть)</v8:content>
+				</v8:item>
+			</CollapsedRepresentationTitle>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<ExtendedTooltip name="ГруппаОСкриптеРасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<LabelDecoration name="НадписьОСкрипте" id="13">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В тексте скрипта ниже доступны следующие переменные контекста:
+пОбработчик— ссылка на этот элемент; 
+пИсточник — произвольный, объект над которым должна быть выполнена операция;
+пПараметры — произвольный, дополнительные параметры;
+Результат — выходной параметр. Значение, помещенное сюда, будет возвращено вызывающему коду;</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НадписьОСкриптеКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="НадписьОСкриптеРасширеннаяПодсказка" id="15"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Скрипт" id="10">
+			<DataPath>Объект.Скрипт</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<AutoMaxHeight>false</AutoMaxHeight>
+			<MultiLine>true</MultiLine>
+			<ExtendedEdit>true</ExtendedEdit>
+			<Font ref="style:общ_ШрифтМоноширинный" kind="StyleItem"/>
+			<ContextMenu name="СкриптКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СкриптРасширеннаяПодсказка" id="12"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.общ_Обработчики</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

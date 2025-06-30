@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Узел" id="1">
+			<DataPath>Запись.Узел</DataPath>
+			<ContextMenu name="УзелКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="УзелРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Категория" id="4">
+			<DataPath>Запись.Категория</DataPath>
+			<ContextMenu name="КатегорияКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="КатегорияРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Идентификатор" id="7">
+			<DataPath>Запись.Идентификатор</DataPath>
+			<ContextMenu name="ИдентификаторКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ДатаВремя" id="10">
+			<DataPath>Запись.ДатаВремя</DataPath>
+			<ContextMenu name="ДатаВремяКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ДатаВремяРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ВерсияДанных" id="13">
+			<DataPath>Запись.ВерсияДанных</DataPath>
+			<ContextMenu name="ВерсияДанныхКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ВерсияДанныхРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Ссылка" id="16">
+			<DataPath>Запись.Ссылка</DataPath>
+			<ContextMenu name="СсылкаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Послание" id="19">
+			<DataPath>Запись.Послание</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<Height>5</Height>
+			<AutoMaxHeight>false</AutoMaxHeight>
+			<MultiLine>true</MultiLine>
+			<ExtendedEdit>true</ExtendedEdit>
+			<Font ref="style:общ_ШрифтМоноширинный" kind="StyleItem"/>
+			<ContextMenu name="ПосланиеКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ПосланиеРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<UsualGroup name="ГруппаОшибки" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Об ошибке</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ошибки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<CollapsedRepresentationTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибка</v8:content>
+				</v8:item>
+			</CollapsedRepresentationTitle>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<ExtendedTooltip name="ГруппаОшибкиРасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<CheckBoxField name="ФлагОшибки" id="22">
+					<DataPath>Запись.ФлагОшибки</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ФлагОшибкиКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ФлагОшибкиРасширеннаяПодсказка" id="24"/>
+				</CheckBoxField>
+				<InputField name="ПредставлениеОшибки" id="25">
+					<DataPath>Запись.ПредставлениеОшибки</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MultiLine>true</MultiLine>
+					<Font ref="style:общ_ШрифтМоноширинный" kind="StyleItem"/>
+					<ContextMenu name="ПредставлениеОшибкиКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ПредставлениеОшибкиРасширеннаяПодсказка" id="27"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.обм_КОтправке</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,11 @@
+.webhook.test
+.tmp/
+.sh.cfg
+ConfigDumpInfo.xml
+*.cfe
+*.cf
+*.dt
+*.epf
+*.erf
+*.n1
+*.png

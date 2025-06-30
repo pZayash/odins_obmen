@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<CommandsVisibility>
+		<Command name="0:5b47fd90-7489-4cd7-a2b1-8398ff197274">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:a6d95e78-9335-487a-b2c1-0708298a9c64">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:05192f4f-eb8f-43ce-b1da-f2aa5efd4045">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:74c26864-a9f0-40b1-87d4-20a983fae383">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:9dd4eab8-912d-4d08-b1b4-740b50005fe5">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:8496c3a1-49cb-47ab-9954-10147bc5878e">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:8de46d9d-8c9f-4009-819a-6e13a080afdd">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:97544e05-0e63-43d4-9a29-6220054bed36">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="100:fb87979a-811a-4410-8009-e9d725e87dbd">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="100:214a3773-b886-49e0-9cda-f71d7f9a8842">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="100:e085c838-a778-4392-b8a9-197e3e936648">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="100:c1d214fc-ce9c-42db-b6b3-10ac7d44297b">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="100:60b6d3ee-851b-4666-9f67-8a07e19dd4e9">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="0:5b47fd90-7489-4cd7-a2b1-8398ff197274">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="0:5b47fd90-7489-4cd7-a2b1-8398ff197274">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<SubsystemsOrder>
+		<Subsystem/>
+		<Subsystem/>
+		<Subsystem/>
+		<Subsystem/>
+		<Subsystem>Subsystem.Общ.Subsystem.обм_ОбменДанными</Subsystem>
+	</SubsystemsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+	</GroupsOrder>
+</CommandInterface>
