@@ -34,7 +34,6 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Form>СведенияОРегламентномЗадании</Form>
 			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>
 			<Template>МакетОтчетаПоОшибкамВЖурналеРегистрации</Template>
 			<Template>ПродолжительностьРаботыРегламентныхЗаданий</Template>

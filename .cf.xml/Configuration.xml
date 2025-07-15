@@ -223,7 +223,6 @@
 			<CommonModule>общ_адм</CommonModule>
 			<CommonModule>общ_Клиент</CommonModule>
 			<CommonModule>общ_Кэш</CommonModule>
-			<CommonModule>общ_Сервер</CommonModule>
 			<ExchangePlan>обм</ExchangePlan>
 			<HTTPService>обм</HTTPService>
 			<EventSubscription>обм_ПриЗаписи</EventSubscription>
