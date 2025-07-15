@@ -21,16 +21,18 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_HTTPЗапросЭмуляция</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.обм_ВходящиеСообщения_Статусы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_Приемники</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_Приемники_ДанныеЗаполнения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_СвязиПриемникПакетДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_ВходящиеСообщения_Статусы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.обм</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.обм_ДанныеЗаполнения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ВходящиеСообщения_Обработка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.обм_ПакетыДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ВходящиеСообщение_ИзвлечениеПакетовДанных_ПереопределяемыйИнтерфейс</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.обм_ОбменДанными_Загрузка</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Получение_ОбработатьДанныеЗаполнения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">93c3aa06-6ba1-4406-af67-38838991cd8e</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Получение_ВходящиеСообщения_Обработать</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.обм_ВходящиеСообщения_ЗагрузкаИзФайла</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Получение_СоздатьДанныеЗаполнения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Получение_1_ИзвлечьПакетыДанныхИзВходящихСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f9156190-8c83-45c6-850d-d87ce1319d0e</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ПакетыДанных_Обработка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ПакетыДанных_Обработка_ПереопределяемыйИнтерфейс</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -15,9 +15,9 @@
 					<v8:content>Тип параметров команд справочника "Данные заполнения" (обм)</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>@TODO Удалить</Comment>
 			<Type>
-				<v8:Type>cfg:CatalogRef.обм_ДанныеЗаполнения</v8:Type>
+				<v8:Type>cfg:CatalogRef.обм_ПакетыДанных</v8:Type>
 			</Type>
 		</Properties>
 	</DefinedType>

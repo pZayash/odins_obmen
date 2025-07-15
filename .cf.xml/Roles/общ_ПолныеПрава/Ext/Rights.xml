@@ -15,7 +15,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.обм_ДанныеЗаполнения</name>
+		<name>Catalog.обм_ПакетыДанных</name>
 		<right>
 			<name>Read</name>
 			<value>false</value>
@@ -125,13 +125,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.обм_ДанныеЗаполнения.Command.СравнитьПриемников</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.обм_ВходящиеСообщения.Command.ЖурналОшибок</name>
 		<right>
 			<name>View</name>
@@ -139,7 +132,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.обм_ВходящиеСообщения_Обработка</name>
+		<name>DataProcessor.обм_ВходящиеСообщение_ИзвлечениеПакетовДанных_ПереопределяемыйИнтерфейс</name>
 		<right>
 			<name>Use</name>
 			<value>false</value>
@@ -165,13 +158,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.общ_ЖурналРегистрации.Command.ЖурналРегистрации</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.обм_ДанныеЗаполнения.Command.ОбновитьПриемник</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -281,7 +267,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.обм_ДанныеЗаполнения.Command.СравнитьДанныеЗаполнения</name>
+		<name>Catalog.обм_ПакетыДанных.Command.ПакетыДанных_Сравнить</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -302,7 +288,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.обм_ДанныеЗаполнения.Command.ОбновитьВладельца</name>
+		<name>Catalog.обм_ПакетыДанных.Command.ОбновитьПриемники</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -316,21 +302,21 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.обм_ДанныеЗаполнения.Command.ВерсииДанныхЗаполнения</name>
+		<name>Catalog.обм_ПакетыДанных.Command.ВерсииДанныхЗаполнения</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.обм_ДанныеЗаполнения.Command.ОбновитьПоследнимиДаннымиЗаполнения</name>
+		<name>Catalog.обм_ПакетыДанных.Command.ОбновитьПоследнимиДаннымиЗаполнения</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.обм_ВходящиеСообщения.Command.Анализировать</name>
+		<name>Catalog.обм_ВходящиеСообщения.Command.ПакетыДанных_Извлечь</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

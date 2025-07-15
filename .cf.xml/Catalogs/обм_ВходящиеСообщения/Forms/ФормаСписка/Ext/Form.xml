@@ -159,28 +159,28 @@
 											<ExtendedTooltip name="Сприсок_ГруппаВерхРасширеннаяПодсказка" id="43"/>
 											<ChildItems>
 												<LabelField name="ДатаВремя" id="19">
-													<DataPath>Список.ДатаВремя</DataPath>
+													<DataPath>~Список.ДатаВремя</DataPath>
 													<ContextMenu name="ДатаВремяКонтекстноеМеню" id="20"/>
 													<ExtendedTooltip name="ДатаВремяРасширеннаяПодсказка" id="21"/>
 												</LabelField>
 												<LabelField name="ОтносительныйURL" id="27">
-													<DataPath>Список.ОтносительныйURL</DataPath>
+													<DataPath>~Список.ОтносительныйURL</DataPath>
 													<ContextMenu name="ОтносительныйURLКонтекстноеМеню" id="28"/>
 													<ExtendedTooltip name="ОтносительныйURLРасширеннаяПодсказка" id="29"/>
 												</LabelField>
 												<LabelField name="HTTPМетод" id="30">
-													<DataPath>Список.HTTPМетод</DataPath>
+													<DataPath>~Список.HTTPМетод</DataPath>
 													<Visible>false</Visible>
 													<ContextMenu name="HTTPМетодКонтекстноеМеню" id="31"/>
 													<ExtendedTooltip name="HTTPМетодРасширеннаяПодсказка" id="32"/>
 												</LabelField>
 												<LabelField name="Статус" id="33">
-													<DataPath>Список.Статус</DataPath>
+													<DataPath>~Список.Статус</DataPath>
 													<ContextMenu name="СтатусКонтекстноеМеню" id="34"/>
 													<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="35"/>
 												</LabelField>
 												<LabelField name="Наименование" id="16">
-													<DataPath>Список.Наименование</DataPath>
+													<DataPath>~Список.Наименование</DataPath>
 													<DefaultItem>true</DefaultItem>
 													<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 													<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
@@ -204,19 +204,19 @@
 											<ExtendedTooltip name="Сприсок_ГруппаНизРасширеннаяПодсказка" id="47"/>
 											<ChildItems>
 												<LabelField name="Примечание" id="39">
-													<DataPath>Список.Примечание</DataPath>
+													<DataPath>~Список.Примечание</DataPath>
 													<Width>80</Width>
 													<Height>2</Height>
 													<ContextMenu name="ПримечаниеКонтекстноеМеню" id="40"/>
 													<ExtendedTooltip name="ПримечаниеРасширеннаяПодсказка" id="41"/>
 												</LabelField>
 												<LabelField name="Приемник" id="123">
-													<DataPath>Список.Приемник</DataPath>
+													<DataPath>~Список.Приемник</DataPath>
 													<ContextMenu name="ПриемникКонтекстноеМеню" id="124"/>
 													<ExtendedTooltip name="ПриемникРасширеннаяПодсказка" id="125"/>
 												</LabelField>
 												<LabelField name="Код" id="36">
-													<DataPath>Список.Код</DataPath>
+													<DataPath>~Список.Код</DataPath>
 													<Visible>false</Visible>
 													<ContextMenu name="КодКонтекстноеМеню" id="37"/>
 													<ExtendedTooltip name="КодРасширеннаяПодсказка" id="38"/>
@@ -402,7 +402,7 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>Список.Статус</Field>
+				<Field>~Список.Статус</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -424,13 +424,13 @@
 		ПО ВходящиеСообщения.Ссылка = Статусы.ВходящееСообщение
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.обм_ВходящиеСообщения_Статусы.СрезПоследних(, Примечание &lt;&gt; "") КАК Примечания
 		ПО ВходящиеСообщения.Ссылка = Примечания.ВходящееСообщение
-		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.обм_ДанныеЗаполнения КАК ДанныеЗаполнения
-		ПО ВходящиеСообщения.Ссылка = ДанныеЗаполнения.Владелец
-			И (ДанныеЗаполнения.ПометкаУдаления = ЛОЖЬ)
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.обм_ПакетыДанных КАК ПакетДанных
+		ПО ВходящиеСообщения.Ссылка = ПакетДанных.Владелец
+			И (ПакетДанных.ПометкаУдаления = ЛОЖЬ)
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.обм_Приемники КАК Приемники
-		ПО (ДанныеЗаполнения.Узел = Приемники.Узел)
-			И (ДанныеЗаполнения.Категория = Приемники.Категория)
-			И (ДанныеЗаполнения.Идентификатор = Приемники.Идентификатор)
+		ПО (ПакетДанных.Узел = Приемники.Узел)
+			И (ПакетДанных.Категория = Приемники.Категория)
+			И (ПакетДанных.Идентификатор = Приемники.Идентификатор)
 ГДЕ
 	ВЫБОР
 			КОГДА &amp;ОтборСтатус = ЗНАЧЕНИЕ(Перечисление.обм_ВходящиеСообщения_Статусы.ПустаяСсылка)

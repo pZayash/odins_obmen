@@ -27,38 +27,6 @@
 				</ToolTip>
 				<ExtendedTooltip name="ГруппаОбработчикиРасширеннаяПодсказка" id="46"/>
 				<ChildItems>
-					<Button name="ФормаОткрытьОбработчикРегистрацииИзмененныхПриЗаписи" id="51">
-						<Type>CommandBarButton</Type>
-						<Visible>false</Visible>
-						<CommandName>Form.Command.ОткрытьОбработчикРегистрацииИзмененныхПриЗаписи</CommandName>
-						<ExtendedTooltip name="ФормаОткрытьОбработчикРегистрацииИзмененныхПриЗаписиРасширеннаяПодсказка" id="52"/>
-					</Button>
-					<Button name="ФормаОткрытьОбработчикРегистрацииИзмененныхПриОбмене" id="53">
-						<Type>CommandBarButton</Type>
-						<Visible>false</Visible>
-						<CommandName>Form.Command.ОткрытьОбработчикРегистрацииИзмененныхПриОбмене</CommandName>
-						<ExtendedTooltip name="ФормаОткрытьОбработчикРегистрацииИзмененныхПриОбменеРасширеннаяПодсказка" id="54"/>
-					</Button>
-					<Button name="ФормаОткрытьОбработчик" id="43">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.ОткрытьОбработчикАдресацииИзмененных</CommandName>
-						<ExtendedTooltip name="ФормаОткрытьОбработчикРасширеннаяПодсказка" id="44"/>
-					</Button>
-					<Button name="ФормаОткрытьОбработчикФормированияСообщения" id="47">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.ОткрытьОбработчикФормированияСообщения</CommandName>
-						<ExtendedTooltip name="ФормаОткрытьОбработчикФормированияСообщенияРасширеннаяПодсказка" id="48"/>
-					</Button>
-					<Button name="ФормаОткрытьОбработчикФормированияСообщенияДляУзла" id="49">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.ОткрытьОбработчикФормированияСообщенияДляУзла</CommandName>
-						<ExtendedTooltip name="ФормаОткрытьОбработчикФормированияСообщенияДляУзлаРасширеннаяПодсказка" id="50"/>
-					</Button>
-					<Button name="ФормаОткрытьОбработчикОтправкиСообщения" id="55">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.ОткрытьОбработчикОтправкиСообщения</CommandName>
-						<ExtendedTooltip name="ФормаОткрытьОбработчикОтправкиСообщенияРасширеннаяПодсказка" id="56"/>
-					</Button>
 					<Button name="ФормаОткрытьСписокОбработчиков" id="57">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ОткрытьСписокОбработчиков</CommandName>
@@ -149,13 +117,13 @@
 					<ExtendedTooltip name="УзелРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="Категория" id="19">
-					<DataPath>Список.Категория</DataPath>
+					<DataPath>~Список.Категория</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="КатегорияКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="КатегорияРасширеннаяПодсказка" id="21"/>
 				</LabelField>
 				<LabelField name="Идентификатор" id="22">
-					<DataPath>Список.Идентификатор</DataPath>
+					<DataPath>~Список.Идентификатор</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="ИдентификаторКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="24"/>
@@ -167,19 +135,19 @@
 					<ExtendedTooltip name="ДатаВремяРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 				<LabelField name="ВерсияДанных" id="28">
-					<DataPath>Список.ВерсияДанных</DataPath>
+					<DataPath>~Список.ВерсияДанных</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="ВерсияДанныхКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="ВерсияДанныхРасширеннаяПодсказка" id="30"/>
 				</LabelField>
 				<LabelField name="Ссылка" id="31">
-					<DataPath>Список.Ссылка</DataPath>
+					<DataPath>~Список.Ссылка</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="СсылкаКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="33"/>
 				</LabelField>
 				<CheckBoxField name="ФлагОшибки" id="34">
-					<DataPath>Список.ФлагОшибки</DataPath>
+					<DataPath>~Список.ФлагОшибки</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ФлагОшибкиКонтекстноеМеню" id="35"/>
@@ -263,96 +231,6 @@
 			</ToolTip>
 			<Action>ПереключитьРегламентное</Action>
 			<Representation>TextPicture</Representation>
-		</Command>
-		<Command name="ОткрытьОбработчикАдресацииИзмененных" id="4">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Адресация измененных</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть обработчик адресации измененных</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОткрытьОбработчикАдресацииИзмененных</Action>
-		</Command>
-		<Command name="ОткрытьОбработчикФормированияСообщения" id="5">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Формирование сообщения по умолчанию</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть обработчик формирования сообщения</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОткрытьОбработчикФормированияСообщения</Action>
-		</Command>
-		<Command name="ОткрытьОбработчикФормированияСообщенияДляУзла" id="6">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Формирование сообщения для узла</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть обработчик формирования сообщения</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОткрытьОбработчикФормированияСообщенияДляУзла</Action>
-		</Command>
-		<Command name="ОткрытьОбработчикРегистрацииИзмененныхПриЗаписи" id="7">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Регистрация измененных при записи</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть обработчик адресации</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОткрытьОбработчикРегистрацииИзмененныхПриЗаписи</Action>
-		</Command>
-		<Command name="ОткрытьОбработчикРегистрацииИзмененныхПриОбмене" id="8">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Регистрация измененных при обмене</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть обработчик адресации</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОткрытьОбработчикРегистрацииИзмененныхПриОбмене</Action>
-		</Command>
-		<Command name="ОткрытьОбработчикОтправкиСообщения" id="9">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Отправка сообщения</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть обработчик отправки сообщения</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОткрытьОбработчикОтправкиСообщения</Action>
 		</Command>
 		<Command name="ОткрытьСписокОбработчиков" id="10">
 			<Title>

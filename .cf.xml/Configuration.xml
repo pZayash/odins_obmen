@@ -217,48 +217,53 @@
 			<SessionParameter>обм_ОбменДанными_Загрузка</SessionParameter>
 			<Role>общ_ПолныеПрава</Role>
 			<Role>обм_БазовыеПрава</Role>
-			<Role>обм_Измененные_НастройкаАдресации</Role>
 			<CommonModule>обм</CommonModule>
+			<CommonModule>обм_лит</CommonModule>
 			<CommonModule>общ</CommonModule>
+			<CommonModule>общ_адм</CommonModule>
 			<CommonModule>общ_Клиент</CommonModule>
 			<CommonModule>общ_Кэш</CommonModule>
 			<CommonModule>общ_Сервер</CommonModule>
-			<CommonModule>общ_адм</CommonModule>
 			<ExchangePlan>обм</ExchangePlan>
 			<HTTPService>обм</HTTPService>
 			<EventSubscription>обм_ПриЗаписи</EventSubscription>
-			<ScheduledJob>обм_Отправка_АдресацияИзмененных</ScheduledJob>
-			<ScheduledJob>обм_Отправка_Отправка</ScheduledJob>
-			<ScheduledJob>обм_Получение_СоздатьДанныеЗаполнения</ScheduledJob>
-			<ScheduledJob>обм_Получение_ОбработатьДанныеЗаполнения</ScheduledJob>
+			<ScheduledJob>обм_Отправка_ИсходящиеСообщения_Отправить</ScheduledJob>
+			<ScheduledJob>обм_Отправка_ИсходящиеСообщения_Создать</ScheduledJob>
+			<ScheduledJob>обм_Получение_ВходящиеСообщения_Обработать</ScheduledJob>
+			<ScheduledJob>обм_Получение_1_ИзвлечьПакетыДанныхИзВходящихСообщений</ScheduledJob>
 			<DefinedType>обм_ид</DefinedType>
 			<DefinedType>обм_категория</DefinedType>
 			<DefinedType>обм_Переопределяемый_КомандыСправочникаДанныеЗаполения</DefinedType>
 			<DefinedType>обм_Переопределяемый_НастраиваетсяАдресацияИзмененных</DefinedType>
-			<DefinedType>обм_Переопределяемый_Обработчики</DefinedType>
 			<DefinedType>обм_узел</DefinedType>
 			<DefinedType>общ_sha256</DefinedType>
 			<DefinedType>общ_ВерсияДанных</DefinedType>
 			<CommandGroup>обм_КоманднаяПанельФормы</CommandGroup>
-			<Constant>общ_ИдентификаторИнформационнойБазы</Constant>
+			<Constant>общ_ИнформационнойБаза_Идентификатор</Constant>
 			<CommonForm>обм_ВходящиеСообщения_ЗагрузкаИзФайла</CommonForm>
 			<Catalog>обм_ВходящиеСообщения</Catalog>
-			<Catalog>обм_ДанныеЗаполнения</Catalog>
+			<Catalog>обм_ИсходящиеСообщения</Catalog>
+			<Catalog>обм_ПакетыДанных</Catalog>
 			<Catalog>общ_Обработчики</Catalog>
 			<Enum>обм_ВходящиеСообщения_ИсточникиПараметров</Enum>
 			<Enum>обм_ВходящиеСообщения_Статусы</Enum>
 			<Enum>обм_Обработчики_ВидыИнтерфейсовОбработчиков</Enum>
 			<Report>обм_АнализЖурналаРегистрации</Report>
 			<DataProcessor>обм_HTTPЗапросЭмуляция</DataProcessor>
-			<DataProcessor>обм_ВходящиеСообщения_Обработка</DataProcessor>
-			<DataProcessor>общ_КонсольКода</DataProcessor>
+			<DataProcessor>обм_ВходящиеСообщение_ИзвлечениеПакетовДанных_ПереопределяемыйИнтерфейс</DataProcessor>
+			<DataProcessor>обм_РегистрацияИзмененных_ПереопределяемыйИнтерфейс</DataProcessor>
+			<DataProcessor>обм_ИсходящиеСообщения_СозданиеАдресацияОтправка</DataProcessor>
+			<DataProcessor>обм_ИсходящиеСообщения_СозданиеАдресацияОтправка_ПереопределяемыйИнтерфейс</DataProcessor>
+			<DataProcessor>обм_ПакетыДанных_Обработка</DataProcessor>
+			<DataProcessor>обм_ПакетыДанных_Обработка_ПереопределяемыйИнтерфейс</DataProcessor>
 			<DataProcessor>общ_ЖурналРегистрации</DataProcessor>
+			<DataProcessor>общ_КонсольКода</DataProcessor>
 			<InformationRegister>обм_ВходящиеСообщения_Статусы</InformationRegister>
 			<InformationRegister>обм_Измененные</InformationRegister>
-			<InformationRegister>обм_Измененные_ПравилаАдресации</InformationRegister>
 			<InformationRegister>обм_КОтправке</InformationRegister>
+			<InformationRegister>обм_ОтправленныеСообщения</InformationRegister>
 			<InformationRegister>обм_Приемники</InformationRegister>
-			<InformationRegister>обм_Приемники_ДанныеЗаполнения</InformationRegister>
+			<InformationRegister>обм_СвязиПриемникПакетДанных</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

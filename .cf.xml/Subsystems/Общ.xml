@@ -22,18 +22,15 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">58911911-5192-45fe-87cf-c4a222a521a1</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.общ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.общ_Клиент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">3c62275a-e8cc-463a-87fb-42f98e7cbf74</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.общ_ВерсияДанных</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.общ_ИдентификаторИнформационнойБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.общ_ИнформационнойБаза_Идентификатор</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.общ_ПолныеПрава</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.общ_sha256</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.общ_ШрифтМоноширинный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.общ_Сервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.общ_Обработчики</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.общ_ЖурналРегистрации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.общ_адм</xr:Item>
 			</Content>
 		</Properties>

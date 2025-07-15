@@ -15,7 +15,7 @@
 					<v8:content>обм: Настраивается адресация измененных</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>@TODO Удалить</Comment>
 			<Type>
 				<v8:Type>cfg:CatalogRef.общ_Обработчики</v8:Type>
 			</Type>

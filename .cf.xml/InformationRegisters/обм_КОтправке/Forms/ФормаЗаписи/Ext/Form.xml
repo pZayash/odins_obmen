@@ -12,12 +12,12 @@
 			<ExtendedTooltip name="УзелРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Категория" id="4">
-			<DataPath>Запись.Категория</DataPath>
+			<DataPath>1/0:72acfbdb-f7fd-4b18-93a5-79c76c1cc42f</DataPath>
 			<ContextMenu name="КатегорияКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="КатегорияРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="Идентификатор" id="7">
-			<DataPath>Запись.Идентификатор</DataPath>
+			<DataPath>1/0:1a86d8f4-567d-473d-aa00-d35a41e6a8c4</DataPath>
 			<ContextMenu name="ИдентификаторКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="9"/>
 		</InputField>
@@ -27,17 +27,17 @@
 			<ExtendedTooltip name="ДатаВремяРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="ВерсияДанных" id="13">
-			<DataPath>Запись.ВерсияДанных</DataPath>
+			<DataPath>1/0:161b77b3-8a76-445f-8e7e-c8cdf9fcca25</DataPath>
 			<ContextMenu name="ВерсияДанныхКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ВерсияДанныхРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<InputField name="Ссылка" id="16">
-			<DataPath>Запись.Ссылка</DataPath>
+			<DataPath>1/0:7cdd489c-ed04-4da2-b17b-103d79bf4a98</DataPath>
 			<ContextMenu name="СсылкаКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="18"/>
 		</InputField>
 		<InputField name="Послание" id="19">
-			<DataPath>Запись.Послание</DataPath>
+			<DataPath>1/0:deca4f0d-6ba3-491f-8dc2-4903055fee84</DataPath>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<Height>5</Height>
 			<AutoMaxHeight>false</AutoMaxHeight>
@@ -72,7 +72,7 @@
 			<ExtendedTooltip name="ГруппаОшибкиРасширеннаяПодсказка" id="29"/>
 			<ChildItems>
 				<CheckBoxField name="ФлагОшибки" id="22">
-					<DataPath>Запись.ФлагОшибки</DataPath>
+					<DataPath>Запись.ФлагОшибкиОтправки</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ФлагОшибкиКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ФлагОшибкиРасширеннаяПодсказка" id="24"/>

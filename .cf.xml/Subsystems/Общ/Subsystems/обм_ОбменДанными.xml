@@ -25,6 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.обм_БазовыеПрава</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.обм</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.обм_АнализЖурналаРегистрации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.обм_лит</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

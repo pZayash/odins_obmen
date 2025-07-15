@@ -6,7 +6,7 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="InformationRegister.обм_Приемники_ДанныеЗаполнения.StandardCommand.OpenList">
+		<Command name="InformationRegister.обм_СвязиПриемникПакетДанных.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 				<xr:Value name="101a4eb3-cdda-47af-8c69-615a6920347a">true</xr:Value>
@@ -23,7 +23,7 @@
 		<Command name="Catalog.обм_ВходящиеСообщения.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
-		<Command name="Catalog.обм_ДанныеЗаполнения.StandardCommand.OpenList">
+		<Command name="Catalog.обм_ПакетыДанных.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.обм_ВходящиеСообщения_Статусы.StandardCommand.OpenList">
@@ -32,7 +32,7 @@
 		<Command name="InformationRegister.обм_Приемники.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.обм_Приемники_ДанныеЗаполнения.StandardCommand.OpenList">
+		<Command name="InformationRegister.обм_СвязиПриемникПакетДанных.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="0:92707138-5004-4378-8477-f909166d319d">

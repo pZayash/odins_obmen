@@ -726,11 +726,11 @@
 			<Form>ФормаЭлемента</Form>
 			<Command uuid="6eaff26b-1bca-492c-8e1d-405047ac7363">
 				<Properties>
-					<Name>Анализировать</Name>
+					<Name>ПакетыДанных_Извлечь</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Анализировать</v8:content>
+							<v8:content>Извлечь пакеты данных из входящих сообщений (обм)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -807,7 +807,7 @@
 					<CommandParameterType>
 						<v8:Type>cfg:CatalogRef.обм_ВходящиеСообщения</v8:Type>
 						<v8:Type>cfg:CatalogRef.общ_Обработчики</v8:Type>
-						<v8:Type>cfg:CatalogRef.обм_ДанныеЗаполнения</v8:Type>
+						<v8:Type>cfg:CatalogRef.обм_ПакетыДанных</v8:Type>
 					</CommandParameterType>
 					<ParameterUseMode>Single</ParameterUseMode>
 					<ModifiesData>false</ModifiesData>

@@ -104,7 +104,7 @@
 					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="30"/>
 				</LabelField>
 				<LabelField name="ОбработчикЗаполненияПриемника" id="31">
-					<DataPath>Список.ОбработчикЗаполненияПриемника</DataPath>
+					<DataPath>~Список.ОбработчикЗаполненияПриемника</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="ОбработчикЗаполненияПриемникаКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="ОбработчикЗаполненияПриемникаРасширеннаяПодсказка" id="33"/>

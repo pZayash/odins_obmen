@@ -15,7 +15,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.обм_Переопределяемый_Обработчики</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">cf08ccb3-fe73-445f-a7be-d964e8cd1296</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
