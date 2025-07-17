@@ -118,7 +118,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.Общ.Subsystem.общ_СторонниеИнструменты</name>
+		<name>Subsystem.общ.Subsystem.общ_СторонниеИнструменты</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -150,7 +150,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.Общ</name>
+		<name>Subsystem.общ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -267,13 +267,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.обм_ПакетыДанных.Command.ПакетыДанных_Сравнить</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.обм_ВходящиеСообщения_ЗагрузкаИзФайла</name>
 		<right>
 			<name>View</name>
@@ -288,28 +281,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.обм_ПакетыДанных.Command.ОбновитьПриемники</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Общ.Subsystem.обм_ОбменДанными</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.обм_ПакетыДанных.Command.ВерсииДанныхЗаполнения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.обм_ПакетыДанных.Command.ОбновитьПоследнимиДаннымиЗаполнения</name>
+		<name>Subsystem.общ.Subsystem.обм_ОбменДанными</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -330,7 +302,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.Общ.Subsystem.обм_ОбменДанными.Subsystem.обм_Получение</name>
+		<name>Subsystem.общ.Subsystem.обм_ОбменДанными.Subsystem.обм_Получение</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -351,7 +323,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.Общ.Subsystem.обм_ОбменДанными.Subsystem.обм_Отправка</name>
+		<name>Subsystem.общ.Subsystem.обм_ОбменДанными.Subsystem.обм_Отправка</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

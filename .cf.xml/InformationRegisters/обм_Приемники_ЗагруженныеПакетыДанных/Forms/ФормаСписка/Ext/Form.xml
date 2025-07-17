@@ -4,7 +4,7 @@
 		<ChildItems>
 			<Button name="ПакетыДанных_Сравнить" id="39">
 				<Type>CommandBarButton</Type>
-				<CommandName>Catalog.обм_ПакетыДанных.Command.ПакетыДанных_Сравнить</CommandName>
+				<CommandName>0:543a348a-2388-4dc5-8e78-28f0be6b3c00</CommandName>
 				<DataPath>~Items.Список.CurrentData.ДанныеЗаполнения</DataPath>
 				<ExtendedTooltip name="ПакетыДанных_СравнитьРасширеннаяПодсказка" id="40"/>
 			</Button>
@@ -119,7 +119,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>InformationRegister.обм_СвязиПриемникПакетДанных</MainTable>
+				<MainTable>InformationRegister.обм_Приемники_ЗагруженныеПакетыДанных</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>

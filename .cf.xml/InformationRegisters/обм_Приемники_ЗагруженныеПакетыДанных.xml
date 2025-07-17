@@ -2,48 +2,48 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
 	<InformationRegister uuid="2c71fcef-ee43-4978-998b-8c65581d3c54">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.обм_СвязиПриемникПакетДанных" category="Record">
+			<xr:GeneratedType name="InformationRegisterRecord.обм_Приемники_ЗагруженныеПакетыДанных" category="Record">
 				<xr:TypeId>0f92a7a3-5f83-4a98-9cb8-fef67e94ba84</xr:TypeId>
 				<xr:ValueId>26c8a91b-52b0-4683-8ebb-663fd1ec4018</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.обм_СвязиПриемникПакетДанных" category="Manager">
+			<xr:GeneratedType name="InformationRegisterManager.обм_Приемники_ЗагруженныеПакетыДанных" category="Manager">
 				<xr:TypeId>00a55b99-1331-4358-95c6-7047110dc4fe</xr:TypeId>
 				<xr:ValueId>5e23aab1-158a-417a-8438-0b29ccd7c43d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.обм_СвязиПриемникПакетДанных" category="Selection">
+			<xr:GeneratedType name="InformationRegisterSelection.обм_Приемники_ЗагруженныеПакетыДанных" category="Selection">
 				<xr:TypeId>6951f9ef-3704-4aa0-a20f-923abc661d7e</xr:TypeId>
 				<xr:ValueId>4c566571-fd6d-4588-8d65-0119dc2e89d9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.обм_СвязиПриемникПакетДанных" category="List">
+			<xr:GeneratedType name="InformationRegisterList.обм_Приемники_ЗагруженныеПакетыДанных" category="List">
 				<xr:TypeId>0469c5d7-bafa-4ccc-9351-963243247147</xr:TypeId>
 				<xr:ValueId>148b1571-9161-4bd2-b601-8403ca93868a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.обм_СвязиПриемникПакетДанных" category="RecordSet">
+			<xr:GeneratedType name="InformationRegisterRecordSet.обм_Приемники_ЗагруженныеПакетыДанных" category="RecordSet">
 				<xr:TypeId>dee26576-e79c-4775-9bd6-22a289f054ae</xr:TypeId>
 				<xr:ValueId>85cfcbc3-4cb4-449f-bac4-c0441cde2b21</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.обм_СвязиПриемникПакетДанных" category="RecordKey">
+			<xr:GeneratedType name="InformationRegisterRecordKey.обм_Приемники_ЗагруженныеПакетыДанных" category="RecordKey">
 				<xr:TypeId>606f5ed8-b59b-429b-8256-1e822f0a7a92</xr:TypeId>
 				<xr:ValueId>de54aea2-2bfa-4a6b-8e56-9db97ddcc4cc</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.обм_СвязиПриемникПакетДанных" category="RecordManager">
+			<xr:GeneratedType name="InformationRegisterRecordManager.обм_Приемники_ЗагруженныеПакетыДанных" category="RecordManager">
 				<xr:TypeId>d2dcbfb4-a297-4ba3-9a26-d0e045d7d736</xr:TypeId>
 				<xr:ValueId>7a91185f-d501-4ff9-9d38-6a23b8379ac4</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>обм_СвязиПриемникПакетДанных</Name>
+			<Name>обм_Приемники_ЗагруженныеПакетыДанных</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Данные заполнения приемников (обм)</v8:content>
+					<v8:content>Загруженные в приемники пакеты данных (обм)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Хранит связь между ссылкой приемника и объектом входящего запроса, откуда были взяты данные для заполения приемника</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
 			<DefaultRecordForm/>
-			<DefaultListForm>InformationRegister.обм_СвязиПриемникПакетДанных.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm>InformationRegister.обм_Приемники_ЗагруженныеПакетыДанных.Form.ФормаСписка</DefaultListForm>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<StandardAttributes>

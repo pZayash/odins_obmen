@@ -13,11 +13,11 @@
 			<Global>false</Global>
 			<ClientManagedApplication>true</ClientManagedApplication>
 			<Server>true</Server>
-			<ExternalConnection>true</ExternalConnection>
+			<ExternalConnection>false</ExternalConnection>
 			<ClientOrdinaryApplication>false</ClientOrdinaryApplication>
 			<ServerCall>false</ServerCall>
 			<Privileged>false</Privileged>
-			<ReturnValuesReuse>DontUse</ReturnValuesReuse>
+			<ReturnValuesReuse>DuringSession</ReturnValuesReuse>
 		</Properties>
 	</CommonModule>
 </MetaDataObject>

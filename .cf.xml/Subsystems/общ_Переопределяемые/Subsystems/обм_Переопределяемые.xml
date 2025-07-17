@@ -15,8 +15,8 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.обм_Переопределяемый_КомандыСправочникаДанныеЗаполения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.обм_Переопределяемый_НастраиваетсяАдресацияИзмененных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">7ff538f3-9a16-42a5-bf6f-6b26d74d4ea9</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">6b9571eb-bf1e-4f86-b3ba-928815e7ec24</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
