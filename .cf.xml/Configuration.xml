@@ -213,7 +213,6 @@
 			<Subsystem>Общ</Subsystem>
 			<Subsystem>общ_Переопределяемые</Subsystem>
 			<StyleItem>общ_ШрифтМоноширинный</StyleItem>
-			<CommonPicture>обм_GITLAB</CommonPicture>
 			<SessionParameter>обм_ОбменДанными_Загрузка</SessionParameter>
 			<Role>общ_ПолныеПрава</Role>
 			<Role>обм_БазовыеПрава</Role>
@@ -246,7 +245,6 @@
 			<Catalog>общ_Обработчики</Catalog>
 			<Enum>обм_ВходящиеСообщения_ИсточникиПараметров</Enum>
 			<Enum>обм_ВходящиеСообщения_Статусы</Enum>
-			<Enum>обм_Обработчики_ВидыИнтерфейсовОбработчиков</Enum>
 			<Report>обм_АнализЖурналаРегистрации</Report>
 			<DataProcessor>обм_HTTPЗапросЭмуляция</DataProcessor>
 			<DataProcessor>обм_ВходящиеСообщение_ИзвлечениеПакетовДанных_ПереопределяемыйИнтерфейс</DataProcessor>

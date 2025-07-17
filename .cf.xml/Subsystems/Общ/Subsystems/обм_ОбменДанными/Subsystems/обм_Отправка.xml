@@ -24,9 +24,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_КОтправке</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_РегистрацияИзмененных_ПереопределяемыйИнтерфейс</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ИсходящиеСообщения_СозданиеАдресацияОтправка_ПереопределяемыйИнтерфейс</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">2d30985a-0bed-42a1-8d05-296cca8482b7</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_ОтправленныеСообщения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ИсходящиеСообщения_СозданиеАдресацияОтправка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.обм_ИсходящиеСообщения</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
