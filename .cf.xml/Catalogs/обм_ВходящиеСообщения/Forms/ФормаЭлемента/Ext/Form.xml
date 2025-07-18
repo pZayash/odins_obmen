@@ -283,7 +283,7 @@
 									</ToolTip>
 									<ExtendedTooltip name="ГруппаВходящиеОбъектыРасширеннаяПодсказка" id="210"/>
 									<ChildItems>
-										<Table name="ДанныеЗаполнения" id="146">
+										<Table name="ПакетыДанных" id="146">
 											<ReadOnly>true</ReadOnly>
 											<UseAlternationRowColor>true</UseAlternationRowColor>
 											<EnableStartDrag>true</EnableStartDrag>
@@ -308,42 +308,42 @@
 											<ShowRoot>true</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
-											<ContextMenu name="ДанныеЗаполненияКонтекстноеМеню" id="147"/>
-											<AutoCommandBar name="ДанныеЗаполненияКоманднаяПанель" id="148">
+											<ContextMenu name="ПакетыДанныхКонтекстноеМеню" id="147"/>
+											<AutoCommandBar name="ПакетыДанныхКоманднаяПанель" id="148">
 												<Autofill>false</Autofill>
 												<ChildItems>
 													<Button name="ДанныеЗаполненияОбновитьПриемник" id="218">
 														<Type>CommandBarButton</Type>
 														<CommandName>0:4956415d-1ade-40f1-8142-f0db3c116edc</CommandName>
-														<DataPath>Items.ДанныеЗаполнения.CurrentData.Ссылка</DataPath>
+														<DataPath>Items.ПакетыДанных.CurrentData.Ссылка</DataPath>
 														<ExtendedTooltip name="ДанныеЗаполненияОбновитьПриемникРасширеннаяПодсказка" id="219"/>
 													</Button>
 												</ChildItems>
 											</AutoCommandBar>
-											<ExtendedTooltip name="ДанныеЗаполненияРасширеннаяПодсказка" id="149"/>
-											<SearchStringAddition name="ДанныеЗаполненияСтрокаПоиска" id="150">
+											<ExtendedTooltip name="ПакетыДанныхРасширеннаяПодсказка" id="149"/>
+											<SearchStringAddition name="ПакетыДанныхСтрокаПоиска" id="150">
 												<AdditionSource>
-													<Item>ДанныеЗаполнения</Item>
+													<Item>ПакетыДанных</Item>
 													<Type>SearchStringRepresentation</Type>
 												</AdditionSource>
-												<ContextMenu name="ДанныеЗаполненияСтрокаПоискаКонтекстноеМеню" id="151"/>
-												<ExtendedTooltip name="ДанныеЗаполненияСтрокаПоискаРасширеннаяПодсказка" id="152"/>
+												<ContextMenu name="ПакетыДанныхСтрокаПоискаКонтекстноеМеню" id="151"/>
+												<ExtendedTooltip name="ПакетыДанныхСтрокаПоискаРасширеннаяПодсказка" id="152"/>
 											</SearchStringAddition>
-											<ViewStatusAddition name="ДанныеЗаполненияСостояниеПросмотра" id="153">
+											<ViewStatusAddition name="ПакетыДанныхСостояниеПросмотра" id="153">
 												<AdditionSource>
-													<Item>ДанныеЗаполнения</Item>
+													<Item>ПакетыДанных</Item>
 													<Type>ViewStatusRepresentation</Type>
 												</AdditionSource>
-												<ContextMenu name="ДанныеЗаполненияСостояниеПросмотраКонтекстноеМеню" id="154"/>
-												<ExtendedTooltip name="ДанныеЗаполненияСостояниеПросмотраРасширеннаяПодсказка" id="155"/>
+												<ContextMenu name="ПакетыДанныхСостояниеПросмотраКонтекстноеМеню" id="154"/>
+												<ExtendedTooltip name="ПакетыДанныхСостояниеПросмотраРасширеннаяПодсказка" id="155"/>
 											</ViewStatusAddition>
-											<SearchControlAddition name="ДанныеЗаполненияУправлениеПоиском" id="156">
+											<SearchControlAddition name="ПакетыДанныхУправлениеПоиском" id="156">
 												<AdditionSource>
-													<Item>ДанныеЗаполнения</Item>
+													<Item>ПакетыДанных</Item>
 													<Type>SearchControl</Type>
 												</AdditionSource>
-												<ContextMenu name="ДанныеЗаполненияУправлениеПоискомКонтекстноеМеню" id="157"/>
-												<ExtendedTooltip name="ДанныеЗаполненияУправлениеПоискомРасширеннаяПодсказка" id="158"/>
+												<ContextMenu name="ПакетыДанныхУправлениеПоискомКонтекстноеМеню" id="157"/>
+												<ExtendedTooltip name="ПакетыДанныхУправлениеПоискомРасширеннаяПодсказка" id="158"/>
 											</SearchControlAddition>
 											<Events>
 												<Event name="Selection">ДанныеЗаполненияВыбор</Event>

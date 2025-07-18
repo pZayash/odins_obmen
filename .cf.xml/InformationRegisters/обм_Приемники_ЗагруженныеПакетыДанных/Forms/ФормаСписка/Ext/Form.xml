@@ -87,10 +87,10 @@
 					<ContextMenu name="ПриемникКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="ПриемникРасширеннаяПодсказка" id="21"/>
 				</LabelField>
-				<LabelField name="ДанныеЗаполнения" id="22">
-					<DataPath>~Список.ДанныеЗаполнения</DataPath>
-					<ContextMenu name="ДанныеЗаполненияКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="ДанныеЗаполненияРасширеннаяПодсказка" id="24"/>
+				<LabelField name="ПакетДанных" id="22">
+					<DataPath>Список.ПакетДанных</DataPath>
+					<ContextMenu name="ПакетДанныхКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ПакетДанныхРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 				<LabelField name="ДатаВремя" id="25">
 					<DataPath>Список.ДатаВремя</DataPath>
