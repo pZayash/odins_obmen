@@ -228,8 +228,8 @@
 			<EventSubscription>обм_ПриЗаписи</EventSubscription>
 			<ScheduledJob>обм_Отправка_ИсходящиеСообщения_Отправить</ScheduledJob>
 			<ScheduledJob>обм_Отправка_ИсходящиеСообщения_Создать</ScheduledJob>
-			<ScheduledJob>обм_Получение_ВходящиеСообщения_Обработать</ScheduledJob>
 			<ScheduledJob>обм_Получение_1_ИзвлечьПакетыДанныхИзВходящихСообщений</ScheduledJob>
+			<ScheduledJob>обм_Получение_2_ОбработатьПакетыДанныхВходящихСообщений</ScheduledJob>
 			<DefinedType>обм_ид</DefinedType>
 			<DefinedType>обм_категория</DefinedType>
 			<DefinedType>обм_узел</DefinedType>

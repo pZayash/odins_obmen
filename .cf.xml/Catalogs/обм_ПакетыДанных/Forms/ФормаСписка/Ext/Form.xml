@@ -75,7 +75,7 @@
 			</Events>
 			<ChildItems>
 				<LabelField name="ВладелецДатаВремя" id="22">
-					<DataPath>~Список.Владелец.ДатаВремя</DataPath>
+					<DataPath>Список.Владелец.ДатаВремя</DataPath>
 					<Width>6</Width>
 					<ContextMenu name="ВладелецДатаВремяКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ВладелецДатаВремяРасширеннаяПодсказка" id="24"/>
@@ -84,7 +84,7 @@
 					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="43"/>
 					<ChildItems>
 						<LabelField name="Наименование" id="16">
-							<DataPath>~Список.Наименование</DataPath>
+							<DataPath>Список.Наименование</DataPath>
 							<DefaultItem>true</DefaultItem>
 							<Width>10</Width>
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
@@ -95,19 +95,19 @@
 							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="45"/>
 							<ChildItems>
 								<LabelField name="Узел" id="46">
-									<DataPath>~Список.Узел</DataPath>
+									<DataPath>Список.Узел</DataPath>
 									<Width>2</Width>
 									<ContextMenu name="УзелКонтекстноеМеню" id="47"/>
 									<ExtendedTooltip name="УзелРасширеннаяПодсказка" id="48"/>
 								</LabelField>
 								<LabelField name="Категория" id="49">
-									<DataPath>~Список.Категория</DataPath>
+									<DataPath>Список.Категория</DataPath>
 									<Width>6</Width>
 									<ContextMenu name="КатегорияКонтекстноеМеню" id="50"/>
 									<ExtendedTooltip name="КатегорияРасширеннаяПодсказка" id="51"/>
 								</LabelField>
 								<LabelField name="Идентификатор" id="52">
-									<DataPath>~Список.Идентификатор</DataPath>
+									<DataPath>Список.Идентификатор</DataPath>
 									<Width>20</Width>
 									<ContextMenu name="ИдентификаторКонтекстноеМеню" id="53"/>
 									<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="54"/>
@@ -120,7 +120,7 @@
 					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
 					<ChildItems>
 						<LabelField name="Владелец" id="37">
-							<DataPath>~Список.Владелец</DataPath>
+							<DataPath>Список.Владелец</DataPath>
 							<ContextMenu name="ВладелецКонтекстноеМеню" id="38"/>
 							<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="39"/>
 						</LabelField>
@@ -132,7 +132,7 @@
 					<ExtendedTooltip name="ВходящиеДанные_sha256РасширеннаяПодсказка" id="33"/>
 				</LabelField>
 				<LabelField name="Обработчик" id="25">
-					<DataPath>~Список.Обработчик</DataPath>
+					<DataPath>Список.Обработчик</DataPath>
 					<ContextMenu name="ОбработчикКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ОбработчикРасширеннаяПодсказка" id="27"/>
 				</LabelField>
@@ -163,7 +163,7 @@
 	Т.Предопределенный КАК Предопределенный,
 	Т.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
 ИЗ
-	Справочник.обм_ДанныеЗаполнения КАК Т</QueryText>
+	Справочник.обм_ПакетыДанных КАК Т</QueryText>
 				<MainTable>Catalog.обм_ПакетыДанных</MainTable>
 				<ListSettings>
 					<dcsset:filter>

@@ -311,14 +311,6 @@
 											<ContextMenu name="ПакетыДанныхКонтекстноеМеню" id="147"/>
 											<AutoCommandBar name="ПакетыДанныхКоманднаяПанель" id="148">
 												<Autofill>false</Autofill>
-												<ChildItems>
-													<Button name="ДанныеЗаполненияОбновитьПриемник" id="218">
-														<Type>CommandBarButton</Type>
-														<CommandName>0:4956415d-1ade-40f1-8142-f0db3c116edc</CommandName>
-														<DataPath>Items.ПакетыДанных.CurrentData.Ссылка</DataPath>
-														<ExtendedTooltip name="ДанныеЗаполненияОбновитьПриемникРасширеннаяПодсказка" id="219"/>
-													</Button>
-												</ChildItems>
 											</AutoCommandBar>
 											<ExtendedTooltip name="ПакетыДанныхРасширеннаяПодсказка" id="149"/>
 											<SearchStringAddition name="ПакетыДанныхСтрокаПоиска" id="150">
@@ -346,34 +338,34 @@
 												<ExtendedTooltip name="ПакетыДанныхУправлениеПоискомРасширеннаяПодсказка" id="158"/>
 											</SearchControlAddition>
 											<Events>
-												<Event name="Selection">ДанныеЗаполненияВыбор</Event>
+												<Event name="Selection">ПакетыДанныхВыбор</Event>
 											</Events>
 											<ChildItems>
-												<LabelField name="ДанныеЗаполненияУзел" id="159">
+												<LabelField name="ПакетыДанных_Узел" id="159">
 													<DataPath>ПакетыДанных.Узел</DataPath>
-													<ContextMenu name="ДанныеЗаполненияУзелКонтекстноеМеню" id="160"/>
-													<ExtendedTooltip name="ДанныеЗаполненияУзелРасширеннаяПодсказка" id="161"/>
+													<ContextMenu name="ПакетыДанных_УзелКонтекстноеМеню" id="160"/>
+													<ExtendedTooltip name="ПакетыДанных_УзелРасширеннаяПодсказка" id="161"/>
 												</LabelField>
-												<LabelField name="ДанныеЗаполненияКатегория" id="162">
+												<LabelField name="ПакетыДанных_Категория" id="162">
 													<DataPath>ПакетыДанных.Категория</DataPath>
-													<ContextMenu name="ДанныеЗаполненияКатегорияКонтекстноеМеню" id="163"/>
-													<ExtendedTooltip name="ДанныеЗаполненияКатегорияРасширеннаяПодсказка" id="164"/>
+													<ContextMenu name="ПакетыДанных_КатегорияКонтекстноеМеню" id="163"/>
+													<ExtendedTooltip name="ПакетыДанных_КатегорияРасширеннаяПодсказка" id="164"/>
 												</LabelField>
-												<LabelField name="ДанныеЗаполненияИдентификатор" id="165">
+												<LabelField name="ПакетыДанных_Идентификатор" id="165">
 													<DataPath>ПакетыДанных.Идентификатор</DataPath>
-													<ContextMenu name="ДанныеЗаполненияИдентификаторКонтекстноеМеню" id="166"/>
-													<ExtendedTooltip name="ДанныеЗаполненияИдентификаторРасширеннаяПодсказка" id="167"/>
+													<ContextMenu name="ПакетыДанных_ИдентификаторКонтекстноеМеню" id="166"/>
+													<ExtendedTooltip name="ПакетыДанных_ИдентификаторРасширеннаяПодсказка" id="167"/>
 												</LabelField>
-												<LabelField name="ДанныеЗаполненияПриемник" id="198">
+												<LabelField name="ПакетыДанных_Приемник" id="198">
 													<DataPath>ПакетыДанных.Приемник</DataPath>
-													<ContextMenu name="ДанныеЗаполненияПриемникКонтекстноеМеню" id="199"/>
-													<ExtendedTooltip name="ДанныеЗаполненияПриемникРасширеннаяПодсказка" id="200"/>
+													<ContextMenu name="ПакетыДанных_ПриемникКонтекстноеМеню" id="199"/>
+													<ExtendedTooltip name="ПакетыДанных_ПриемникРасширеннаяПодсказка" id="200"/>
 												</LabelField>
-												<LabelField name="ДанныеЗаполнения_sha256" id="174">
+												<LabelField name="ПакетыДанных_sha256" id="174">
 													<DataPath>ПакетыДанных.Данные_sha256</DataPath>
 													<Visible>false</Visible>
-													<ContextMenu name="ДанныеЗаполнения_sha256КонтекстноеМеню" id="175"/>
-													<ExtendedTooltip name="ДанныеЗаполнения_sha256РасширеннаяПодсказка" id="176"/>
+													<ContextMenu name="ПакетыДанных_sha256КонтекстноеМеню" id="175"/>
+													<ExtendedTooltip name="ПакетыДанных_sha256РасширеннаяПодсказка" id="176"/>
 												</LabelField>
 											</ChildItems>
 										</Table>

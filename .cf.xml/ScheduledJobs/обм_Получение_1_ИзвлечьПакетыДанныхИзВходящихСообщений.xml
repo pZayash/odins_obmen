@@ -10,9 +10,9 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<MethodName>CommonModule.обм.Получение_ДанныеЗаполнения_Создать</MethodName>
-			<Description>обм: Обработка очереди входящих сообщений 1, создать данные заполнения</Description>
-			<Key>обм_Получение_ДанныеЗаполнения_Создать</Key>
+			<MethodName>CommonModule.обм.Получение_1_ИзвлечьПакетыДанныхИзВходящихСообщений</MethodName>
+			<Description>обм: Обработка очереди входящих сообщений 1, извлечь пакеты данных</Description>
+			<Key>обм_Получение_1_ИзвлечьПакетыДанныхИзВходящихСообщений</Key>
 			<Use>false</Use>
 			<Predefined>true</Predefined>
 			<RestartCountOnFailure>0</RestartCountOnFailure>
