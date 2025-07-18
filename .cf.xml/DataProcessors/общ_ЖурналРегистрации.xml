@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
-	<DataProcessor uuid="cba527db-19cd-4149-b325-c96ce991f8c8">
+	<DataProcessor uuid="59c09525-9d35-48af-810e-ddb17aabb1a2">
 		<InternalInfo>
 			<xr:GeneratedType name="DataProcessorObject.общ_ЖурналРегистрации" category="Object">
-				<xr:TypeId>9592a47e-550c-448f-8fb9-41bcf984d4f0</xr:TypeId>
-				<xr:ValueId>ad261fa3-061f-40a4-a090-81e7220148db</xr:ValueId>
+				<xr:TypeId>942be68b-2365-49b1-a5ba-41ad3082c135</xr:TypeId>
+				<xr:ValueId>af0a6ecf-5ab4-4cf5-b5a2-4a432a263a28</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DataProcessorManager.общ_ЖурналРегистрации" category="Manager">
-				<xr:TypeId>95933dc9-29aa-4cdb-b3b6-bb80af42b155</xr:TypeId>
-				<xr:ValueId>07a20df3-22a1-41f6-99d5-505b0646dd2f</xr:ValueId>
+				<xr:TypeId>a7d9499b-4dd8-42a5-aa2a-406b798bd5bf</xr:TypeId>
+				<xr:ValueId>15e53ab1-44d3-4f7b-a5ff-02ffe77a8ff0</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -32,7 +32,7 @@
 			<Form>ОтборЖурналаРегистрации</Form>
 			<Form>РедакторСоставаСвойства</Form>
 			<Form>ФормаСобытия</Form>
-			<Command uuid="46b92ca9-34ab-4146-911d-6b7cd79be0b5">
+			<Command uuid="cfde6eee-5c43-483a-82e3-608e7f938173">
 				<Properties>
 					<Name>ЖурналРегистрации</Name>
 					<Synonym>

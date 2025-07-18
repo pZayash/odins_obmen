@@ -157,9 +157,53 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.общ_ЖурналРегистрации.Command.ЖурналРегистрации</name>
+		<name>Configuration.odins_obmen</name>
 		<right>
-			<name>View</name>
+			<name>ExclusiveMode</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MobileClient</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ExternalConnection</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Automation</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>CollaborationSystemInfoBaseRegistration</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveOpenExtReports</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -274,13 +318,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.общ_Переопределяемые.Subsystem.обм_Переопределяемые</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.общ.Subsystem.обм_ОбменДанными</name>
 		<right>
 			<name>View</name>
@@ -337,13 +374,6 @@
 		</right>
 		<right>
 			<name>Set</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.общ_Переопределяемые</name>
-		<right>
-			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>

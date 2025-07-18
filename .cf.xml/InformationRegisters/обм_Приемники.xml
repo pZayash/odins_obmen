@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Приемники данных входящих сообщений (обм)</v8:content>
+					<v8:content>Приемники пакетов данных (обм)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -164,12 +164,7 @@
 			<ExtendedRecordPresentation/>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
-			<Explanation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Используется для хранения информации сопоставления объектов этой информационной базы с объектами информационной базы корреспондента обмена.</v8:content>
-				</v8:item>
-			</Explanation>
+			<Explanation/>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>

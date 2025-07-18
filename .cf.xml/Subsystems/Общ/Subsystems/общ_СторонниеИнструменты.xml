@@ -17,7 +17,6 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.общ_КонсольКода</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.общ_ЖурналРегистрации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">f480ac52-e2f1-4ed0-a0b1-20a622f77302</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
