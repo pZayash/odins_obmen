@@ -27,9 +27,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.обм_ПакетыДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ВходящиеСообщение_ИзвлечениеПакетовДанных_ПереопределяемыйИнтерфейс</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.обм_ОбменДанными_Загрузка</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Получение_2_ОбработатьПакетыДанныхВходящихСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Получение_2_ПакетыДанных_Обработать</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.обм_ВходящиеСообщения_ЗагрузкаИзФайла</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Получение_1_ИзвлечьПакетыДанныхИзВходящихСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Получение_1_ПакетыДанных_Извлечь</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">f9156190-8c83-45c6-850d-d87ce1319d0e</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ПакетыДанных_Обработка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ПакетыДанных_Обработка_ПереопределяемыйИнтерфейс</xr:Item>

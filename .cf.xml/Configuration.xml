@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>odin</Vendor>
-			<Version>250717.01</Version>
+			<Version>250718.01</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -226,10 +226,10 @@
 			<ExchangePlan>обм</ExchangePlan>
 			<HTTPService>обм</HTTPService>
 			<EventSubscription>обм_ПриЗаписи</EventSubscription>
-			<ScheduledJob>обм_Отправка_ИсходящиеСообщения_Отправить</ScheduledJob>
-			<ScheduledJob>обм_Отправка_ИсходящиеСообщения_Создать</ScheduledJob>
-			<ScheduledJob>обм_Получение_1_ИзвлечьПакетыДанныхИзВходящихСообщений</ScheduledJob>
-			<ScheduledJob>обм_Получение_2_ОбработатьПакетыДанныхВходящихСообщений</ScheduledJob>
+			<ScheduledJob>обм_Отправка_1_ИсходящиеСообщения_Создать</ScheduledJob>
+			<ScheduledJob>обм_Отправка_2_ИсходящиеСообщения_Отправить</ScheduledJob>
+			<ScheduledJob>обм_Получение_1_ПакетыДанных_Извлечь</ScheduledJob>
+			<ScheduledJob>обм_Получение_2_ПакетыДанных_Обработать</ScheduledJob>
 			<DefinedType>обм_ид</DefinedType>
 			<DefinedType>обм_категория</DefinedType>
 			<DefinedType>обм_узел</DefinedType>

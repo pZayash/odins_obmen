@@ -17,8 +17,8 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.обм</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_Измененные</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Отправка_ИсходящиеСообщения_Отправить</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Отправка_ИсходящиеСообщения_Создать</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Отправка_2_ИсходящиеСообщения_Отправить</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Отправка_1_ИсходящиеСообщения_Создать</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.обм</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.обм_ПриЗаписи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_КОтправке</xr:Item>
