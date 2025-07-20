@@ -217,6 +217,7 @@
 			<SessionParameter>обм_ОбменДанными_Загрузка</SessionParameter>
 			<Role>общ_ПолныеПрава</Role>
 			<Role>обм_БазовыеПрава</Role>
+			<Role>обм_HTTPСервис_Использование</Role>
 			<CommonModule>обм</CommonModule>
 			<CommonModule>обм_лит</CommonModule>
 			<CommonModule>обм_Команды</CommonModule>
@@ -225,7 +226,7 @@
 			<CommonModule>общ_Клиент</CommonModule>
 			<CommonModule>общ_Кэш</CommonModule>
 			<ExchangePlan>обм</ExchangePlan>
-			<HTTPService>обм</HTTPService>
+			<HTTPService>obm</HTTPService>
 			<EventSubscription>обм_ПриЗаписи</EventSubscription>
 			<ScheduledJob>обм_Отправка_1_ИсходящиеСообщения_Создать</ScheduledJob>
 			<ScheduledJob>обм_Отправка_2_ИсходящиеСообщения_Отправить</ScheduledJob>

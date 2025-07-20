@@ -17,7 +17,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.обм_узел</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.обм_КоманднаяПанельФормы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.обм</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.obm</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.общ_Кэш</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.обм_ид</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.обм_категория</xr:Item>
@@ -32,8 +32,8 @@
 			</Content>
 		</Properties>
 		<ChildObjects>
-			<Subsystem>обм_Получение</Subsystem>
 			<Subsystem>обм_Отправка</Subsystem>
+			<Subsystem>обм_Получение</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>
