@@ -67,43 +67,90 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Период" id="16">
-					<DataPath>Список.Period</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="ПериодКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="18"/>
-				</LabelField>
-				<LabelField name="ВходящийЗапросДатаВремя" id="25">
-					<DataPath>~Список.ВходящийЗапрос.ДатаВремя</DataPath>
+				<ColumnGroup name="ГруппаСписокСтроки" id="44">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Время запроса</v8:content>
+							<v8:content>Группа список строки</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="ВходящийЗапросДатаВремяКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="ВходящийЗапросДатаВремяРасширеннаяПодсказка" id="27"/>
-				</LabelField>
-				<LabelField name="ВходящийЗапросНаименование" id="34">
-					<DataPath>~Список.ВходящийЗапрос.Description~Список.ВходящийЗапрос.Наименование</DataPath>
-					<ContextMenu name="ВходящийЗапросНаименованиеКонтекстноеМеню" id="35"/>
-					<ExtendedTooltip name="ВходящийЗапросНаименованиеРасширеннаяПодсказка" id="36"/>
-				</LabelField>
-				<LabelField name="ВходящийЗапросHTTPМетод" id="28">
-					<DataPath>~Список.ВходящийЗапрос.HTTPМетод</DataPath>
-					<ContextMenu name="ВходящийЗапросHTTPМетодКонтекстноеМеню" id="29"/>
-					<ExtendedTooltip name="ВходящийЗапросHTTPМетодРасширеннаяПодсказка" id="30"/>
-				</LabelField>
-				<LabelField name="ВходящийЗапросОтносительныйURL" id="31">
-					<DataPath>~Список.ВходящийЗапрос.ОтносительныйURL</DataPath>
-					<ContextMenu name="ВходящийЗапросОтносительныйURLКонтекстноеМеню" id="32"/>
-					<ExtendedTooltip name="ВходящийЗапросОтносительныйURLРасширеннаяПодсказка" id="33"/>
-				</LabelField>
-				<LabelField name="Статус" id="22">
-					<DataPath>Список.Статус</DataPath>
-					<ContextMenu name="СтатусКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="24"/>
-				</LabelField>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа список строки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСписокСтрокиРасширеннаяПодсказка" id="45"/>
+					<ChildItems>
+						<ColumnGroup name="ГруппаСписокСтрока1" id="28">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа список строка1</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа список строка1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="ГруппаСписокСтрока1РасширеннаяПодсказка" id="29"/>
+							<ChildItems>
+								<LabelField name="Период" id="16">
+									<DataPath>Список.Period</DataPath>
+									<DefaultItem>true</DefaultItem>
+									<ContextMenu name="ПериодКонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="18"/>
+								</LabelField>
+								<LabelField name="ВходящееСообщение" id="35">
+									<DataPath>Список.ВходящееСообщение</DataPath>
+									<ContextMenu name="ВходящееСообщениеКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="ВходящееСообщениеРасширеннаяПодсказка" id="37"/>
+								</LabelField>
+								<LabelField name="Статус" id="22">
+									<DataPath>Список.Статус</DataPath>
+									<ContextMenu name="СтатусКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="24"/>
+								</LabelField>
+								<LabelField name="ПоследнийПриемник" id="25">
+									<DataPath>Список.ПоследнийПриемник</DataPath>
+									<ContextMenu name="ПоследнийПриемникКонтекстноеМеню" id="26"/>
+									<ExtendedTooltip name="ПоследнийПриемникРасширеннаяПодсказка" id="27"/>
+								</LabelField>
+								<LabelField name="КоличествоОшибок" id="38">
+									<DataPath>Список.КоличествоОшибок</DataPath>
+									<ContextMenu name="КоличествоОшибокКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="КоличествоОшибокРасширеннаяПодсказка" id="40"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+						<ColumnGroup name="ГруппаСписокСтрока2" id="30">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа список строка2</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа список строка2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="ГруппаСписокСтрока2РасширеннаяПодсказка" id="31"/>
+							<ChildItems>
+								<LabelField name="Примечание" id="41">
+									<DataPath>Список.Примечание</DataPath>
+									<ContextMenu name="ПримечаниеКонтекстноеМеню" id="42"/>
+									<ExtendedTooltip name="ПримечаниеРасширеннаяПодсказка" id="43"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</ColumnGroup>
 			</ChildItems>
 		</Table>
 	</ChildItems>

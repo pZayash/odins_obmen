@@ -515,7 +515,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	Т.Период КАК Период,
 	Т.Примечание КАК Примечание,
 	Т.ВходящееСообщение КАК ВходящееСообщение,
@@ -560,7 +560,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ПакетДанных.Ссылка КАК Ссылка,
 	ПакетДанных.ПометкаУдаления КАК ПометкаУдаления,
 	ПакетДанных.Владелец КАК Владелец,

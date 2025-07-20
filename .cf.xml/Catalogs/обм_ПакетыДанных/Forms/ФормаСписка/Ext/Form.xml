@@ -148,7 +148,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	Т.Ссылка КАК Ссылка,
 	Т.ПометкаУдаления КАК ПометкаУдаления,
 	Т.Владелец КАК Владелец,

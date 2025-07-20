@@ -151,7 +151,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	Т.Ссылка КАК Ссылка,
 	ТИПЗНАЧЕНИЯ(Т.Ссылка) КАК ТипЗнач,
 	Т.ДатаВремя КАК ДатаВремя,

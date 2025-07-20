@@ -413,7 +413,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>false</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ВходящиеСообщения.Ссылка КАК Ссылка,
 	ВходящиеСообщения.ПометкаУдаления КАК ПометкаУдаления,
 	ВходящиеСообщения.Код КАК Код,
@@ -434,7 +434,7 @@
 				ТОГДА ИСТИНА
 			ИНАЧЕ ЕСТЬNULL(Статусы.Статус, ЗНАЧЕНИЕ(Перечисление.обм_ВходящиеСообщения_Статусы.ПустаяСсылка)) = &amp;ОтборСтатус
 		КОНЕЦ</QueryText>
-				<MainTable>InformationRegister.обм_ВходящиеСообщения_Статусы.SliceLast</MainTable>
+				<MainTable>Catalog.обм_ВходящиеСообщения</MainTable>
 				<GetInvisibleFieldPresentations>false</GetInvisibleFieldPresentations>
 				<ListSettings>
 					<dcsset:filter>
@@ -599,7 +599,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>false</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ВходящиеСообщения.Ссылка КАК Ссылка,
 	ВходящиеСообщения.ПометкаУдаления КАК ПометкаУдаления,
 	ВходящиеСообщения.Код КАК Код,
