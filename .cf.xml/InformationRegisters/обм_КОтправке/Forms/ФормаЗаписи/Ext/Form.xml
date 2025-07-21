@@ -8,15 +8,15 @@
 			<ContextMenu name="УзелКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="УзелРасширеннаяПодсказка" id="3"/>
 		</InputField>
-		<InputField name="Категория" id="4">
-			<DataPath>1/0:72acfbdb-f7fd-4b18-93a5-79c76c1cc42f</DataPath>
-			<ContextMenu name="КатегорияКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="КатегорияРасширеннаяПодсказка" id="6"/>
+		<InputField name="ИсходящееСообщение" id="30">
+			<DataPath>Запись.ИсходящееСообщение</DataPath>
+			<ContextMenu name="ИсходящееСообщениеКонтекстноеМеню" id="31"/>
+			<ExtendedTooltip name="ИсходящееСообщениеРасширеннаяПодсказка" id="32"/>
 		</InputField>
-		<InputField name="Идентификатор" id="7">
-			<DataPath>1/0:1a86d8f4-567d-473d-aa00-d35a41e6a8c4</DataPath>
-			<ContextMenu name="ИдентификаторКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="9"/>
+		<InputField name="ОбработчикОтправки" id="33">
+			<DataPath>Запись.ОбработчикОтправки</DataPath>
+			<ContextMenu name="ОбработчикОтправкиКонтекстноеМеню" id="34"/>
+			<ExtendedTooltip name="ОбработчикОтправкиРасширеннаяПодсказка" id="35"/>
 		</InputField>
 		<InputField name="ДатаВремя" id="10">
 			<DataPath>Запись.ДатаВремя</DataPath>
@@ -24,25 +24,8 @@
 			<ExtendedTooltip name="ДатаВремяРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="ВерсияДанных" id="13">
-			<DataPath>1/0:161b77b3-8a76-445f-8e7e-c8cdf9fcca25</DataPath>
 			<ContextMenu name="ВерсияДанныхКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ВерсияДанныхРасширеннаяПодсказка" id="15"/>
-		</InputField>
-		<InputField name="Ссылка" id="16">
-			<DataPath>1/0:7cdd489c-ed04-4da2-b17b-103d79bf4a98</DataPath>
-			<ContextMenu name="СсылкаКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="18"/>
-		</InputField>
-		<InputField name="Послание" id="19">
-			<DataPath>1/0:deca4f0d-6ba3-491f-8dc2-4903055fee84</DataPath>
-			<AutoMaxWidth>false</AutoMaxWidth>
-			<Height>5</Height>
-			<AutoMaxHeight>false</AutoMaxHeight>
-			<MultiLine>true</MultiLine>
-			<ExtendedEdit>true</ExtendedEdit>
-			<Font ref="style:общ_ШрифтМоноширинный" kind="StyleItem"/>
-			<ContextMenu name="ПосланиеКонтекстноеМеню" id="20"/>
-			<ExtendedTooltip name="ПосланиеРасширеннаяПодсказка" id="21"/>
 		</InputField>
 		<UsualGroup name="ГруппаОшибки" id="28">
 			<Title>

@@ -291,11 +291,6 @@
 			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>Журнал</DataPath>
 			<RowPictureDataPath>Журнал.НомерРисунка</RowPictureDataPath>
-			<RowsPicture>
-				<xr:Ref>0:58911911-5192-45fe-87cf-c4a222a521a1</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-				<xr:TransparentPixel x="30" y="2"/>
-			</RowsPicture>
 			<BorderColor>style:BorderColor</BorderColor>
 			<Title>
 				<v8:item>

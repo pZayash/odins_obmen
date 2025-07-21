@@ -128,6 +128,16 @@
 					<ContextMenu name="ИдентификаторКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="24"/>
 				</LabelField>
+				<LabelField name="ИсходящееСообщение" id="59">
+					<DataPath>Список.ИсходящееСообщение</DataPath>
+					<ContextMenu name="ИсходящееСообщениеКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ИсходящееСообщениеРасширеннаяПодсказка" id="61"/>
+				</LabelField>
+				<LabelField name="ОбработчикОтправки" id="62">
+					<DataPath>Список.ОбработчикОтправки</DataPath>
+					<ContextMenu name="ОбработчикОтправкиКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ОбработчикОтправкиРасширеннаяПодсказка" id="64"/>
+				</LabelField>
 				<LabelField name="ДатаВремя" id="25">
 					<DataPath>Список.ДатаВремя</DataPath>
 					<DefaultItem>true</DefaultItem>
@@ -153,6 +163,12 @@
 					<ContextMenu name="ФлагОшибкиКонтекстноеМеню" id="35"/>
 					<ExtendedTooltip name="ФлагОшибкиРасширеннаяПодсказка" id="36"/>
 				</CheckBoxField>
+				<CheckBoxField name="ФлагОшибкиОтправки" id="65">
+					<DataPath>Список.ФлагОшибкиОтправки</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ФлагОшибкиОтправкиКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="ФлагОшибкиОтправкиРасширеннаяПодсказка" id="67"/>
+				</CheckBoxField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -162,6 +178,11 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Список.ИсходящееСообщение</Field>
+				<Field>Список.ОбработчикОтправки</Field>
+				<Field>Список.Узел</Field>
+			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>

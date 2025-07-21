@@ -342,7 +342,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Узел</v8:content>
+							<v8:content>Узел-получатель</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -425,8 +425,8 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Form>ФормаСписка</Form>
 			<Form>ФормаЗаписи</Form>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
