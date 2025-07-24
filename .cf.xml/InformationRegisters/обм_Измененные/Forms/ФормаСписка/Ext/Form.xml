@@ -139,6 +139,11 @@
 					<ContextMenu name="ВерсияДанныхКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ВерсияДанныхРасширеннаяПодсказка" id="24"/>
 				</LabelField>
+				<LabelField name="УзелОтправитель" id="51">
+					<DataPath>Список.УзелОтправитель</DataPath>
+					<ContextMenu name="УзелОтправительКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="УзелОтправительРасширеннаяПодсказка" id="53"/>
+				</LabelField>
 				<CheckBoxField name="ФлагОшибкиПриОбработке" id="48">
 					<DataPath>Список.ФлагОшибкиПриОбработке</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -154,6 +159,12 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Список.ВерсияДанных</Field>
+				<Field>Список.Ссылка</Field>
+				<Field>Список.УзелОтправитель</Field>
+				<Field>Список.ФлагОшибкиПриОбработке</Field>
+			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>

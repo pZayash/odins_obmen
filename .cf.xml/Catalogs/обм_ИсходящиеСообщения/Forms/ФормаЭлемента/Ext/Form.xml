@@ -3,6 +3,9 @@
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Наименование" id="40">
 			<DataPath>Объект.Description</DataPath>
@@ -15,12 +18,35 @@
 			<ContextMenu name="ДатаВремяКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ДатаВремяРасширеннаяПодсказка" id="3"/>
 		</InputField>
-		<InputField name="Источник" id="4">
-			<DataPath>Объект.Источник</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ИсточникКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="ИсточникРасширеннаяПодсказка" id="6"/>
-		</InputField>
+		<UsualGroup name="ГруппаИсточник" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа источник</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа источник</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаИсточникРасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<InputField name="Источник" id="4">
+					<DataPath>Объект.Источник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИсточникКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ИсточникРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<LabelDecoration name="ДекорацияПолученОт" id="45">
+					<ContextMenu name="ДекорацияПолученОтКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="ДекорацияПолученОтРасширеннаяПодсказка" id="47"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
 		<InputField name="ИсходящееСообщение" id="10">
 			<DataPath>Объект.ИсходящееСообщение</DataPath>
 			<EditMode>EnterOnInput</EditMode>
