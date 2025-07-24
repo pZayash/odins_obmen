@@ -117,7 +117,7 @@
 					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="ТипЗнач" id="29">
-					<DataPath>Список.ТипЗнач</DataPath>
+					<DataPath>~Список.ТипЗнач</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -139,6 +139,12 @@
 					<ContextMenu name="ВерсияДанныхКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ВерсияДанныхРасширеннаяПодсказка" id="24"/>
 				</LabelField>
+				<CheckBoxField name="ФлагОшибкиПриОбработке" id="48">
+					<DataPath>Список.ФлагОшибкиПриОбработке</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ФлагОшибкиПриОбработкеКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="ФлагОшибкиПриОбработкеРасширеннаяПодсказка" id="50"/>
+				</CheckBoxField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -149,18 +155,8 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<Settings xsi:type="DynamicList">
-				<ManualQuery>true</ManualQuery>
+				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	Т.Ссылка КАК Ссылка,
-	ТИПЗНАЧЕНИЯ(Т.Ссылка) КАК ТипЗнач,
-	Т.ДатаВремя КАК ДатаВремя,
-	Т.ВерсияДанных КАК ВерсияДанных,
-	Т.УзелОтправитель КАК УзелОтправитель,
-	Т.Категория КАК Категория,
-	Т.Идентификатор КАК Идентификатор
-ИЗ
-	РегистрСведений.обм_Измененные КАК Т</QueryText>
 				<MainTable>InformationRegister.обм_Измененные</MainTable>
 				<ListSettings>
 					<dcsset:filter>

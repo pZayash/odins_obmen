@@ -96,13 +96,6 @@
 					<ContextMenu name="ОбработчикОтправкиКонтекстноеМеню" id="35"/>
 					<ExtendedTooltip name="ОбработчикОтправкиРасширеннаяПодсказка" id="36"/>
 				</LabelField>
-				<CheckBoxField name="ФлагОшибкиПриСоздании" id="40">
-					<DataPath>Список.ФлагОшибкиПриСоздании</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ФлагОшибкиПриСозданииКонтекстноеМеню" id="41"/>
-					<ExtendedTooltip name="ФлагОшибкиПриСозданииРасширеннаяПодсказка" id="42"/>
-				</CheckBoxField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

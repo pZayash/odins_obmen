@@ -34,13 +34,6 @@
 			<ContextMenu name="ИсходящееСообщениеКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ИсходящееСообщениеРасширеннаяПодсказка" id="12"/>
 		</InputField>
-		<CheckBoxField name="ФлагОшибкиПриСоздании" id="13">
-			<DataPath>Объект.ФлагОшибкиПриСоздании</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ФлагОшибкиПриСозданииКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="ФлагОшибкиПриСозданииРасширеннаяПодсказка" id="15"/>
-		</CheckBoxField>
 		<UsualGroup name="ГруппаПолучатели" id="38">
 			<Title>
 				<v8:item>
