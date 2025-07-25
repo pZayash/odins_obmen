@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>odin</Vendor>
-			<Version>250724.01</Version>
+			<Version>250725.01</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -248,11 +248,11 @@
 			<Enum>обм_ВходящиеСообщения_Статусы</Enum>
 			<Report>обм_АнализЖурналаРегистрации</Report>
 			<DataProcessor>обм_HTTPЗапросЭмуляция</DataProcessor>
-			<DataProcessor>обм_ВходящиеСообщение_ИзвлечениеПакетовДанных_ПереопределяемыйИнтерфейс</DataProcessor>
-			<DataProcessor>обм_ИсходящиеСообщения_СозданиеАдресацияОтправка_ПереопределяемыйИнтерфейс</DataProcessor>
+			<DataProcessor>обм_ИнтерфейсОбработчиков_ВходящиеСообщение_ИзвлечениеПакетовДанных</DataProcessor>
+			<DataProcessor>обм_ИнтерфейсОбработчиков_ИсходящиеСообщения_СозданиеАдресацияОтправка</DataProcessor>
+			<DataProcessor>обм_ИнтерфейсОбработчиков_ПакетыДанных_Обработка</DataProcessor>
+			<DataProcessor>обм_ИнтерфейсОбработчиков_РегистрацияИзмененных</DataProcessor>
 			<DataProcessor>обм_ПакетыДанных_Обработка</DataProcessor>
-			<DataProcessor>обм_ПакетыДанных_Обработка_ПереопределяемыйИнтерфейс</DataProcessor>
-			<DataProcessor>обм_РегистрацияИзмененных_ПереопределяемыйИнтерфейс</DataProcessor>
 			<DataProcessor>общ_ЖурналРегистрации</DataProcessor>
 			<DataProcessor>общ_КонсольКода</DataProcessor>
 			<InformationRegister>обм_ВходящиеСообщения_Статусы</InformationRegister>

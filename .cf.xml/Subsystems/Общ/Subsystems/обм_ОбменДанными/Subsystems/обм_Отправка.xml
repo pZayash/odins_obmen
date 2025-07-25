@@ -22,8 +22,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.obm</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.обм_ПриЗаписи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_КОтправке</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_РегистрацияИзмененных_ПереопределяемыйИнтерфейс</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ИсходящиеСообщения_СозданиеАдресацияОтправка_ПереопределяемыйИнтерфейс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ИнтерфейсОбработчиков_РегистрацияИзмененных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ИнтерфейсОбработчиков_ИсходящиеСообщения_СозданиеАдресацияОтправка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_ОтправленныеСообщения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">3b11cf07-0fb6-4516-a64b-b44a01491d56</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.обм_ИсходящиеСообщения</xr:Item>

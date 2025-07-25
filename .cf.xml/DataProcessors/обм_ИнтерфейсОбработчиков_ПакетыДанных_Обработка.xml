@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
-	<DataProcessor uuid="2d4cdabd-cfd4-4631-a382-d9ec2f12837b">
+	<DataProcessor uuid="183a85ad-9f57-4585-baa3-124aa2fd8e32">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.обм_ВходящиеСообщение_ИзвлечениеПакетовДанных_ПереопределяемыйИнтерфейс" category="Object">
-				<xr:TypeId>b663693b-fdce-4c72-8d5f-438e271db23e</xr:TypeId>
-				<xr:ValueId>ed9fa4cf-62ba-41fc-9263-f3837931ef7f</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorObject.обм_ИнтерфейсОбработчиков_ПакетыДанных_Обработка" category="Object">
+				<xr:TypeId>9e2f7681-5845-4396-b572-f98dd3501ba4</xr:TypeId>
+				<xr:ValueId>8fd7f62a-ddff-40e2-a343-1270caab3d4f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.обм_ВходящиеСообщение_ИзвлечениеПакетовДанных_ПереопределяемыйИнтерфейс" category="Manager">
-				<xr:TypeId>aa81cc33-b72f-4988-aea2-74b80711df7a</xr:TypeId>
-				<xr:ValueId>52b6b9a4-afdc-490d-9d15-9d0847569ddd</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorManager.обм_ИнтерфейсОбработчиков_ПакетыДанных_Обработка" category="Manager">
+				<xr:TypeId>8072e525-992b-4caf-bf62-35acdcd90dd4</xr:TypeId>
+				<xr:ValueId>0a77b977-414e-47d2-9ded-3eff8cb21ab7</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>обм_ВходящиеСообщение_ИзвлечениеПакетовДанных_ПереопределяемыйИнтерфейс</Name>
+			<Name>обм_ИнтерфейсОбработчиков_ПакетыДанных_Обработка</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Интерфейс внешних обработчиков для извлечения пакетов данных из входящих сообщений (обм)</v8:content>
+					<v8:content>Интерфейс обработчиков для загрузки объектов информационной базы из данных заполнения (обм)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -28,7 +28,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="7789638b-5277-473b-8c46-effb6309211e">
+			<Attribute uuid="0f7c7416-005b-4819-bb9e-3907947e4446">
 				<Properties>
 					<Name>РеализацияИнтерфейса</Name>
 					<Synonym>
@@ -60,7 +60,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="52fdddcb-5133-471b-a408-63a0268cd5d7">
+			<Attribute uuid="97409c4b-4657-44e6-abe1-ec31549c87f4">
 				<Properties>
 					<Name>СправочникСсылка_общ_Обработчики</Name>
 					<Synonym>

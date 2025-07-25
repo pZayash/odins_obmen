@@ -40,7 +40,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.обм_ВходящиеСообщение_ИзвлечениеПакетовДанных_ПереопределяемыйИнтерфейс</name>
+		<name>DataProcessor.обм_ИнтерфейсОбработчиков_ВходящиеСообщение_ИзвлечениеПакетовДанных</name>
 		<right>
 			<name>Use</name>
 			<value>false</value>
