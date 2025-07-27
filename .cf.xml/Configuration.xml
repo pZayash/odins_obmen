@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>odin</Vendor>
-			<Version>250725.01</Version>
+			<Version>250727.03</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -238,7 +238,7 @@
 			<DefinedType>общ_sha256</DefinedType>
 			<DefinedType>общ_ВерсияДанных</DefinedType>
 			<CommandGroup>обм_КоманднаяПанельФормы</CommandGroup>
-			<Constant>общ_ИнформационнойБаза_Идентификатор</Constant>
+			<Constant>общ_ИдентификаторИнформационнойБазы</Constant>
 			<CommonForm>обм_ВходящиеСообщения_ЗагрузкаИзФайла</CommonForm>
 			<Catalog>обм_ВходящиеСообщения</Catalog>
 			<Catalog>обм_ИсходящиеСообщения</Catalog>

@@ -2,21 +2,21 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
 	<Constant uuid="0ba1688d-6878-47ff-97a5-7a1c120b2860">
 		<InternalInfo>
-			<xr:GeneratedType name="ConstantManager.общ_ИнформационнойБаза_Идентификатор" category="Manager">
+			<xr:GeneratedType name="ConstantManager.общ_ИдентификаторИнформационнойБазы" category="Manager">
 				<xr:TypeId>18b5b293-c30a-48b0-8e0e-586c3f496151</xr:TypeId>
 				<xr:ValueId>bef4d713-b2a5-46f7-8723-50c4e59cc334</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueManager.общ_ИнформационнойБаза_Идентификатор" category="ValueManager">
+			<xr:GeneratedType name="ConstantValueManager.общ_ИдентификаторИнформационнойБазы" category="ValueManager">
 				<xr:TypeId>08e6735d-60cd-4333-952e-df1aeae75c1f</xr:TypeId>
 				<xr:ValueId>2d5cb192-9d5c-436c-a6c0-66d774b86823</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueKey.общ_ИнформационнойБаза_Идентификатор" category="ValueKey">
+			<xr:GeneratedType name="ConstantValueKey.общ_ИдентификаторИнформационнойБазы" category="ValueKey">
 				<xr:TypeId>9ce35c07-a08a-4f06-9cdb-54c88820ef7c</xr:TypeId>
 				<xr:ValueId>f14343c1-7cee-4871-9f05-2af7df8d5bda</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>общ_ИнформационнойБаза_Идентификатор</Name>
+			<Name>общ_ИдентификаторИнформационнойБазы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

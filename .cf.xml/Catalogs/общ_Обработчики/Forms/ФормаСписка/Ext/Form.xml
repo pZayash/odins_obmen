@@ -81,10 +81,15 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
-				<LabelField name="Код" id="19">
-					<DataPath>~Список.Code~Список.Код</DataPath>
-					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
+				<LabelField name="Синоним" id="24">
+					<DataPath>Список.Синоним</DataPath>
+					<ContextMenu name="СинонимКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="СинонимРасширеннаяПодсказка" id="26"/>
+				</LabelField>
+				<LabelField name="ВерсияИнтерфейса" id="27">
+					<DataPath>Список.ВерсияИнтерфейса</DataPath>
+					<ContextMenu name="ВерсияИнтерфейсаКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="ВерсияИнтерфейсаРасширеннаяПодсказка" id="29"/>
 				</LabelField>
 			</ChildItems>
 		</Table>

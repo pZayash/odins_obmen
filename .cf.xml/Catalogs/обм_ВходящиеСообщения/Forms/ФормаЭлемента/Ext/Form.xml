@@ -342,27 +342,27 @@
 											</Events>
 											<ChildItems>
 												<LabelField name="ПакетыДанных_Узел" id="159">
-													<DataPath>ПакетыДанных.Узел</DataPath>
+													<DataPath>~ПакетыДанных.Узел</DataPath>
 													<ContextMenu name="ПакетыДанных_УзелКонтекстноеМеню" id="160"/>
 													<ExtendedTooltip name="ПакетыДанных_УзелРасширеннаяПодсказка" id="161"/>
 												</LabelField>
 												<LabelField name="ПакетыДанных_Категория" id="162">
-													<DataPath>ПакетыДанных.Категория</DataPath>
+													<DataPath>~ПакетыДанных.Категория</DataPath>
 													<ContextMenu name="ПакетыДанных_КатегорияКонтекстноеМеню" id="163"/>
 													<ExtendedTooltip name="ПакетыДанных_КатегорияРасширеннаяПодсказка" id="164"/>
 												</LabelField>
 												<LabelField name="ПакетыДанных_Идентификатор" id="165">
-													<DataPath>ПакетыДанных.Идентификатор</DataPath>
+													<DataPath>~ПакетыДанных.Идентификатор</DataPath>
 													<ContextMenu name="ПакетыДанных_ИдентификаторКонтекстноеМеню" id="166"/>
 													<ExtendedTooltip name="ПакетыДанных_ИдентификаторРасширеннаяПодсказка" id="167"/>
 												</LabelField>
 												<LabelField name="ПакетыДанных_Приемник" id="198">
-													<DataPath>ПакетыДанных.Приемник</DataPath>
+													<DataPath>~ПакетыДанных.Приемник</DataPath>
 													<ContextMenu name="ПакетыДанных_ПриемникКонтекстноеМеню" id="199"/>
 													<ExtendedTooltip name="ПакетыДанных_ПриемникРасширеннаяПодсказка" id="200"/>
 												</LabelField>
 												<LabelField name="ПакетыДанных_sha256" id="174">
-													<DataPath>ПакетыДанных.Данные_sha256</DataPath>
+													<DataPath>~ПакетыДанных.Данные_sha256</DataPath>
 													<Visible>false</Visible>
 													<ContextMenu name="ПакетыДанных_sha256КонтекстноеМеню" id="175"/>
 													<ExtendedTooltip name="ПакетыДанных_sha256РасширеннаяПодсказка" id="176"/>

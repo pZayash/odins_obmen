@@ -25,7 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.общ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.общ_Клиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.общ_ВерсияДанных</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.общ_ИнформационнойБаза_Идентификатор</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.общ_ИдентификаторИнформационнойБазы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.общ_ПолныеПрава</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.общ_sha256</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.общ_ШрифтМоноширинный</xr:Item>
