@@ -75,6 +75,9 @@
 				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">СписокВыбор</Event>
+			</Events>
 			<ChildItems>
 				<LabelField name="Период" id="16">
 					<DataPath>Список.Period</DataPath>
@@ -93,17 +96,17 @@
 					<ExtendedTooltip name="ПакетДанныхРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 				<LabelField name="ДатаВремя" id="25">
-					<DataPath>Список.ДатаВремя</DataPath>
+					<DataPath>~Список.ДатаВремя</DataPath>
 					<ContextMenu name="ДатаВремяКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ДатаВремяРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 				<LabelField name="Данные_sha256" id="28">
-					<DataPath>Список.Данные_sha256</DataPath>
+					<DataPath>~Список.Данные_sha256</DataPath>
 					<ContextMenu name="Данные_sha256КонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="Данные_sha256РасширеннаяПодсказка" id="30"/>
 				</LabelField>
 				<LabelField name="Данные_Длина" id="31">
-					<DataPath>Список.Данные_Длина</DataPath>
+					<DataPath>~Список.Данные_Длина</DataPath>
 					<ContextMenu name="Данные_ДлинаКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="Данные_ДлинаРасширеннаяПодсказка" id="33"/>
 				</LabelField>

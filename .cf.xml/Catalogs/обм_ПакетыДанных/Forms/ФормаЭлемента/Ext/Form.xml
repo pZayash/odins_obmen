@@ -51,12 +51,18 @@
 							<ContextMenu name="ИдентификаторКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="18"/>
 						</InputField>
-						<InputField name="Владелец" id="7">
-							<DataPath>Объект.Owner</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
-							<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
-						</InputField>
+						<CheckBoxField name="НеСоздаватьНовыйПриемник" id="74">
+							<DataPath>Объект.ОтказСозданияНовогоПриемника</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НеСоздаватьНовыйПриемникКонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="НеСоздаватьНовыйПриемникРасширеннаяПодсказка" id="76"/>
+						</CheckBoxField>
+						<CheckBoxField name="НеОбновлятьСуществующийПриемник" id="77">
+							<DataPath>Объект.ОтказПерезаписиПриемника</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НеОбновлятьСуществующийПриемникКонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="НеОбновлятьСуществующийПриемникРасширеннаяПодсказка" id="79"/>
+						</CheckBoxField>
 						<InputField name="Комментарий" id="68">
 							<DataPath>Объект.Комментарий</DataPath>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -67,6 +73,12 @@
 							<ExtendedEdit>true</ExtendedEdit>
 							<ContextMenu name="КомментарийКонтекстноеМеню" id="69"/>
 							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="70"/>
+						</InputField>
+						<InputField name="Владелец" id="7">
+							<DataPath>Объект.Owner</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
 						</InputField>
 						<InputField name="ДатаВремя" id="65">
 							<DataPath>Объект.ДатаВремя</DataPath>
