@@ -51,13 +51,6 @@
 		</right>
 	</object>
 	<object>
-		<name>ExchangePlan.обм</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.общ</name>
 		<right>
 			<name>View</name>

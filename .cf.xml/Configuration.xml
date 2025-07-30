@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>odin</Vendor>
-			<Version>250728.02</Version>
+			<Version>250730.03</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -225,7 +225,6 @@
 			<CommonModule>общ</CommonModule>
 			<CommonModule>общ_Клиент</CommonModule>
 			<CommonModule>общ_Кэш</CommonModule>
-			<ExchangePlan>обм</ExchangePlan>
 			<HTTPService>obm</HTTPService>
 			<EventSubscription>обм_ПриЗаписи</EventSubscription>
 			<ScheduledJob>обм_Отправка_1_ИсходящиеСообщения_Создать</ScheduledJob>
