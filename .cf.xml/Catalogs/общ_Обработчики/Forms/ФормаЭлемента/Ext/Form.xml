@@ -9,6 +9,11 @@
 				<CommandName>Form.Command.ЗагрузитьИзФайла</CommandName>
 				<ExtendedTooltip name="ФормаЗагрузитьИзФайлаРасширеннаяПодсказка" id="11"/>
 			</Button>
+			<Button name="ФормаВыгрузитьВФайл" id="24">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВыгрузитьВФайл</CommandName>
+				<ExtendedTooltip name="ФормаВыгрузитьВФайлРасширеннаяПодсказка" id="25"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
