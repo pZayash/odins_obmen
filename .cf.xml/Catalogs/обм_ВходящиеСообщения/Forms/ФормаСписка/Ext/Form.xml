@@ -125,6 +125,7 @@
 							</SearchControlAddition>
 							<Events>
 								<Event name="Selection">СписокВыбор</Event>
+								<Event name="OnGetDataAtServer">СписокПриПолученииДанныхНаСервере</Event>
 							</Events>
 							<ChildItems>
 								<ColumnGroup name="Список_ГруппаВертикальная" id="44">
@@ -408,6 +409,7 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
+				<Field>Список.ПоследнийПриемник</Field>
 				<Field>Список.Статус</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">

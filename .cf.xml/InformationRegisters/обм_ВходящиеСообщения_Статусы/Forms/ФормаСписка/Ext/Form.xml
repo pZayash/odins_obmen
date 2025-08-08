@@ -66,6 +66,9 @@
 				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="OnGetDataAtServer">СписокПриПолученииДанныхНаСервере</Event>
+			</Events>
 			<ChildItems>
 				<ColumnGroup name="ГруппаСписокСтроки" id="44">
 					<Title>
@@ -162,6 +165,7 @@
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
 				<Field>~Список.ВходящийЗапрос</Field>
+				<Field>Список.ПоследнийПриемник</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
