@@ -606,7 +606,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>254</v8:Length>
+							<v8:Length>0</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -633,8 +633,8 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
+					<FullTextSearch>DontUse</FullTextSearch>
+					<DataHistory>DontUse</DataHistory>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="3e400b56-5ba6-42f3-a3a6-e04a477f442c">
