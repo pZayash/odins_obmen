@@ -40,7 +40,7 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>true</UseStandardCommands>
+			<UseStandardCommands>false</UseStandardCommands>
 			<EditType>InDialog</EditType>
 			<DefaultRecordForm>InformationRegister.обм_ВходящиеСообщения_Статусы.Form.ФормаЗаписи</DefaultRecordForm>
 			<DefaultListForm>InformationRegister.обм_ВходящиеСообщения_Статусы.Form.ФормаСписка</DefaultListForm>
