@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
 	<CommandsOrder>
-		<Command name="InformationRegister.обм_Измененные.StandardCommand.OpenList">
+		<Command name="0:8ec717a4-a557-4bdf-ae5d-ca0dec6a06d2">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Catalog.обм_ИсходящиеСообщения.StandardCommand.OpenList">
+		<Command name="0:b2e2d733-8017-4b0d-b944-e487d5b85cef">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.обм_КОтправке.StandardCommand.OpenList">
+		<Command name="0:1fab387b-294c-4f2d-93e7-0f7fa14f7f47">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.обм_ОтправленныеСообщения.StandardCommand.OpenList">
+		<Command name="0:6987f41d-3859-4247-b93b-ccc5364c32cd">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>

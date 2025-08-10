@@ -4,10 +4,10 @@
 		<Command name="0:46b44c83-d29c-49d4-bb02-ad442901dc76">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.обм_Измененные.StandardCommand.OpenList">
+		<Command name="0:8ec717a4-a557-4bdf-ae5d-ca0dec6a06d2">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.обм_КОтправке.StandardCommand.OpenList">
+		<Command name="0:1fab387b-294c-4f2d-93e7-0f7fa14f7f47">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>
