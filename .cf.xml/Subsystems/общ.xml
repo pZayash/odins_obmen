@@ -29,9 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.общ_ПолныеПрава</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.общ_sha256</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.общ_ШрифтМоноширинный</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">2bb56314-bd3f-498a-ad3b-07742efc491a</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.общ_Обработчики</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">46d24e76-bd14-40d9-8809-64fba3b6938c</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
