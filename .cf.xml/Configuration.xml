@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>odin</Vendor>
-			<Version>250817.,01</Version>
+			<Version>250911.01</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -215,9 +215,10 @@
 			<StyleItem>общ_ШрифтМоноширинный</StyleItem>
 			<CommonPicture>обм_ИконкаПодсистемы</CommonPicture>
 			<SessionParameter>обм_ОбменДанными_Загрузка</SessionParameter>
-			<Role>общ_ПолныеПрава</Role>
-			<Role>обм_БазовыеПрава</Role>
 			<Role>обм_HTTPСервис_Использование</Role>
+			<Role>обм_БазовыеПрава</Role>
+			<Role>общ_Automation</Role>
+			<Role>общ_ПолныеПрава</Role>
 			<CommonModule>обм</CommonModule>
 			<CommonModule>обм_лит</CommonModule>
 			<CommonModule>обм_Команды</CommonModule>
