@@ -1,18 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<CommandsVisibility>
+		<Command name="Catalog.обм_ИсходящиеСообщения.Command.ИсходящиеСообщения">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.обм_ОтправленныеСообщения.Command.ОтправленныеСообщения">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Catalog.обм_ИсходящиеСообщения.Command.ИсходящиеСообщения">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.обм_ОтправленныеСообщения.Command.ОтправленныеСообщения">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
 	<CommandsOrder>
-		<Command name="0:46b44c83-d29c-49d4-bb02-ad442901dc76">
+		<Command name="InformationRegister.обм_Измененные.Command.ИзмененныеОбъекты">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="0:8ec717a4-a557-4bdf-ae5d-ca0dec6a06d2">
+		<Command name="InformationRegister.обм_КОтправке.Command.ОчередьКОтправке">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="0:1fab387b-294c-4f2d-93e7-0f7fa14f7f47">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		<Command name="Catalog.обм_ИсходящиеСообщения.Command.ИсходящиеСообщения">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.обм_ОтправленныеСообщения.Command.ОтправленныеСообщения">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
 		<Group>NavigationPanelImportant</Group>
 		<Group>NavigationPanelOrdinary</Group>
+		<Group>NavigationPanelSeeAlso</Group>
 	</GroupsOrder>
 </CommandInterface>

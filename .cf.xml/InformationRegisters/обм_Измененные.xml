@@ -360,6 +360,27 @@
 			</Dimension>
 			<Form>ФормаЗаписи</Form>
 			<Form>ФормаСписка</Form>
+			<Command uuid="e310ad3e-dc71-483f-879d-796530f40da7">
+				<Properties>
+					<Name>ИзмененныеОбъекты</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Измененные объекты</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>NavigationPanelOrdinary</Group>
+					<CommandParameterType/>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
