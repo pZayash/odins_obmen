@@ -191,11 +191,11 @@
 			</Resource>
 			<Resource uuid="ec2c6e66-939c-499a-ab4a-eda44738298f">
 				<Properties>
-					<Name>Категория</Name>
+					<Name>КатегорияОтправителя</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Категория</v8:content>
+							<v8:content>Категория отправителя</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -235,11 +235,11 @@
 			</Resource>
 			<Resource uuid="d9d41a83-ebdc-44a9-b51f-62ea516ab1c4">
 				<Properties>
-					<Name>Идентификатор</Name>
+					<Name>ИдентификаторОтправителя</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Идентификатор</v8:content>
+							<v8:content>Идентификатор отправителя</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

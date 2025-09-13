@@ -24,12 +24,12 @@
 			<ExtendedTooltip name="УзелОтправительРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="Категория" id="13">
-			<DataPath>Запись.Категория</DataPath>
+			<DataPath>Запись.КатегорияОтправителя</DataPath>
 			<ContextMenu name="КатегорияКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="КатегорияРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<InputField name="Идентификатор" id="16">
-			<DataPath>Запись.Идентификатор</DataPath>
+			<DataPath>Запись.ИдентификаторОтправителя</DataPath>
 			<ContextMenu name="ИдентификаторКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="18"/>
 		</InputField>
