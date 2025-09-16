@@ -4,6 +4,7 @@
 		<ChildItems>
 			<Button name="ФормаНастройкаОтладкиОбработчиков" id="22">
 				<Type>CommandBarButton</Type>
+				<Visible>false</Visible>
 				<CommandName>Form.Command.НастройкаОтладкиОбработчиков</CommandName>
 				<ExtendedTooltip name="ФормаНастройкаОтладкиОбработчиковРасширеннаяПодсказка" id="23"/>
 			</Button>
@@ -75,22 +76,63 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Наименование" id="16">
-					<DataPath>Список.Description</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
-				</LabelField>
-				<LabelField name="Синоним" id="24">
-					<DataPath>Список.Синоним</DataPath>
-					<ContextMenu name="СинонимКонтекстноеМеню" id="25"/>
-					<ExtendedTooltip name="СинонимРасширеннаяПодсказка" id="26"/>
-				</LabelField>
-				<LabelField name="ВерсияИнтерфейса" id="27">
-					<DataPath>Список.ВерсияИнтерфейса</DataPath>
-					<ContextMenu name="ВерсияИнтерфейсаКонтекстноеМеню" id="28"/>
-					<ExtendedTooltip name="ВерсияИнтерфейсаРасширеннаяПодсказка" id="29"/>
-				</LabelField>
+				<ColumnGroup name="СписокЛево" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список лево</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список лево</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>7</Width>
+					<ExtendedTooltip name="СписокЛевоРасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<LabelField name="Синоним" id="24">
+							<DataPath>Список.Синоним</DataPath>
+							<ContextMenu name="СинонимКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="СинонимРасширеннаяПодсказка" id="26"/>
+						</LabelField>
+						<LabelField name="Комментарий" id="34">
+							<DataPath>Список.Комментарий</DataPath>
+							<ContextMenu name="КомментарийКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="36"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<ColumnGroup name="СписокПраво" id="32">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список право</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список право</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>3</Width>
+					<ExtendedTooltip name="СписокПравоРасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<LabelField name="Наименование" id="16">
+							<DataPath>Список.Description</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
+						</LabelField>
+						<LabelField name="ВерсияИнтерфейса" id="27">
+							<DataPath>Список.ВерсияИнтерфейса</DataPath>
+							<ContextMenu name="ВерсияИнтерфейсаКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="ВерсияИнтерфейсаРасширеннаяПодсказка" id="29"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
 			</ChildItems>
 		</Table>
 	</ChildItems>
