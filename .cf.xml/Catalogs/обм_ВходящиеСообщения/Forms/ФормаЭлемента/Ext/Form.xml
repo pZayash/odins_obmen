@@ -268,20 +268,20 @@
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОбработкаКолонкиРасширеннаяПодсказка" id="208"/>
 							<ChildItems>
-								<UsualGroup name="ГруппаВходящиеОбъекты" id="209">
+								<UsualGroup name="ГруппаПакетыДанных" id="209">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Входящие объекты</v8:content>
+											<v8:content>Пакеты данных</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Группа входящие объекты</v8:content>
+											<v8:content>Группа пакеты данных</v8:content>
 										</v8:item>
 									</ToolTip>
-									<ExtendedTooltip name="ГруппаВходящиеОбъектыРасширеннаяПодсказка" id="210"/>
+									<ExtendedTooltip name="ГруппаПакетыДанныхРасширеннаяПодсказка" id="210"/>
 									<ChildItems>
 										<Table name="ПакетыДанных" id="146">
 											<ReadOnly>true</ReadOnly>
