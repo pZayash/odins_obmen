@@ -171,6 +171,11 @@
 				</CheckBoxField>
 			</ChildItems>
 		</Table>
+		<Button name="ПоказатьРазмерОчереди" id="68">
+			<Type>Hyperlink</Type>
+			<CommandName>Form.Command.ПоказатьРазмерОчереди</CommandName>
+			<ExtendedTooltip name="ПоказатьРазмерОчередиРасширеннаяПодсказка" id="69"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1">
@@ -266,6 +271,22 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьСписокОбработчиков</Action>
+		</Command>
+		<Command name="ПоказатьРазмерОчереди" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать размер очереди</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать размер очереди</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоказатьРазмерОчереди</Action>
+			<Representation>Text</Representation>
 		</Command>
 	</Commands>
 </Form>
