@@ -60,7 +60,7 @@
 			<DefaultObjectForm>Catalog.обм_ИсходящиеСообщения.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm>Catalog.обм_ИсходящиеСообщения.Form.ФормаСписка</DefaultListForm>
-			<DefaultChoiceForm/>
+			<DefaultChoiceForm>Catalog.обм_ИсходящиеСообщения.Form.ФормаСписка</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
