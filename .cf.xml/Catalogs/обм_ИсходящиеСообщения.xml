@@ -170,11 +170,11 @@
 			</Attribute>
 			<Attribute uuid="363b92bd-8fa2-4bee-8d16-5a1f67d5fecd">
 				<Properties>
-					<Name>ИсходящееСообщение</Name>
+					<Name>ТекстСообщения</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Исходящее сообщение</v8:content>
+							<v8:content>Текст сообщения</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

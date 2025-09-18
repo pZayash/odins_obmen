@@ -48,7 +48,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<InputField name="ИсходящееСообщение" id="10">
-			<DataPath>Объект.ИсходящееСообщение</DataPath>
+			<DataPath>Объект.ТекстСообщения</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<AutoMaxHeight>false</AutoMaxHeight>
