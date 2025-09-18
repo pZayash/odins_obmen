@@ -291,7 +291,7 @@
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemField">
 							<dcsset:field>ДатаВремя</dcsset:field>
-							<dcsset:orderType>Asc</dcsset:orderType>
+							<dcsset:orderType>Desc</dcsset:orderType>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:OrderItemField">
 							<dcsset:field>Наименование</dcsset:field>

@@ -75,14 +75,26 @@
 				<Event name="Selection">СписокВыбор</Event>
 			</Events>
 			<ChildItems>
-				<LabelField name="ВладелецДатаВремя" id="22">
-					<DataPath>Список.Владелец.ДатаВремя</DataPath>
+				<LabelField name="СписокДатаВремя" id="22">
+					<DataPath>Список.ДатаВремя</DataPath>
 					<Width>6</Width>
-					<ContextMenu name="ВладелецДатаВремяКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="ВладелецДатаВремяРасширеннаяПодсказка" id="24"/>
+					<ContextMenu name="СписокДатаВремяКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="СписокДатаВремяРасширеннаяПодсказка" id="24"/>
 				</LabelField>
-				<ColumnGroup name="Группа2" id="42">
-					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="43"/>
+				<ColumnGroup name="СписокГруппаЛево" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список группа лево</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список группа лево</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СписокГруппаЛевоРасширеннаяПодсказка" id="43"/>
 					<ChildItems>
 						<LabelField name="Наименование" id="16">
 							<DataPath>Список.Наименование</DataPath>
@@ -91,9 +103,21 @@
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 						</LabelField>
-						<ColumnGroup name="Группа3" id="44">
+						<ColumnGroup name="СписокГруппаВектор" id="44">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Список группа вектор</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Список группа вектор</v8:content>
+								</v8:item>
+							</ToolTip>
 							<Group>Horizontal</Group>
-							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="45"/>
+							<ExtendedTooltip name="СписокГруппаВекторРасширеннаяПодсказка" id="45"/>
 							<ChildItems>
 								<LabelField name="Узел" id="46">
 									<DataPath>Список.Узел</DataPath>
@@ -117,25 +141,38 @@
 						</ColumnGroup>
 					</ChildItems>
 				</ColumnGroup>
-				<ColumnGroup name="Группа1" id="40">
-					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
+				<ColumnGroup name="СписокГруппаПраво" id="40">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список группа право</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список группа право</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СписокГруппаПравоРасширеннаяПодсказка" id="41"/>
 					<ChildItems>
 						<LabelField name="Владелец" id="37">
 							<DataPath>Список.Владелец</DataPath>
 							<ContextMenu name="ВладелецКонтекстноеМеню" id="38"/>
 							<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="39"/>
 						</LabelField>
+						<LabelField name="Обработчик" id="25">
+							<DataPath>Список.Обработчик</DataPath>
+							<ContextMenu name="ОбработчикКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ОбработчикРасширеннаяПодсказка" id="27"/>
+						</LabelField>
 					</ChildItems>
 				</ColumnGroup>
 				<LabelField name="ВходящиеДанные_sha256" id="31">
 					<DataPath>~Список.ВходящиеДанные_sha256</DataPath>
+					<Visible>false</Visible>
 					<ContextMenu name="ВходящиеДанные_sha256КонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="ВходящиеДанные_sha256РасширеннаяПодсказка" id="33"/>
-				</LabelField>
-				<LabelField name="Обработчик" id="25">
-					<DataPath>Список.Обработчик</DataPath>
-					<ContextMenu name="ОбработчикКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="ОбработчикРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
@@ -172,6 +209,10 @@
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
 					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ДатаВремя</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>
