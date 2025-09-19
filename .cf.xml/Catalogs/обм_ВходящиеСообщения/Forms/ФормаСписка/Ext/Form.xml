@@ -80,10 +80,12 @@
 						<Table name="Список" id="3">
 							<Representation>List</Representation>
 							<CommandBarLocation>None</CommandBarLocation>
+							<RowInputMode>BeforeCurrentRow</RowInputMode>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
 							<UseAlternationRowColor>true</UseAlternationRowColor>
-							<InitialListView>End</InitialListView>
+							<InitialListView>Beginning</InitialListView>
 							<InitialTreeView>ExpandTopLevel</InitialTreeView>
-							<EnableStartDrag>true</EnableStartDrag>
 							<DataPath>Список</DataPath>
 							<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 							<SearchStringLocation>None</SearchStringLocation>
@@ -97,7 +99,7 @@
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<RestoreCurrentRow>false</RestoreCurrentRow>
 							<TopLevelParent xsi:nil="true"/>
-							<ShowRoot>true</ShowRoot>
+							<ShowRoot>false</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
 							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
