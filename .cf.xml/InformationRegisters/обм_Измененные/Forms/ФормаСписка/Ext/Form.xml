@@ -155,6 +155,7 @@
 		</Table>
 		<Button name="ПоказатьРазмерОчереди" id="54">
 			<Type>Hyperlink</Type>
+			<HorizontalStretch>true</HorizontalStretch>
 			<CommandName>Form.Command.ПоказатьРазмерОчереди</CommandName>
 			<ExtendedTooltip name="ПоказатьРазмерОчередиРасширеннаяПодсказка" id="55"/>
 		</Button>
