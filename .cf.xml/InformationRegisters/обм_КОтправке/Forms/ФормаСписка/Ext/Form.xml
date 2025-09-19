@@ -39,6 +39,11 @@
 				<CommandName>Form.Command.ПереключитьРегламентное</CommandName>
 				<ExtendedTooltip name="ФормаПереключитьРегламентноеРасширеннаяПодсказка" id="42"/>
 			</Button>
+			<Button name="ФормаСправочникобм_ИсходящиеСообщенияСправочникИсходящиеСообщения" id="70">
+				<Type>CommandBarButton</Type>
+				<CommandName>Catalog.обм_ИсходящиеСообщения.Command.СправочникИсходящиеСообщения</CommandName>
+				<ExtendedTooltip name="ФормаСправочникобм_ИсходящиеСообщенияСправочникИсходящиеСообщенияРасширеннаяПодсказка" id="71"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>

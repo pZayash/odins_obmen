@@ -138,8 +138,13 @@
 					</Synonym>
 					<Comment/>
 					<Type>
+						<v8:Type>xs:string</v8:Type>
 						<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
 						<v8:TypeSet>cfg:CatalogRef</v8:TypeSet>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -450,17 +455,40 @@
 			<Form>ФормаСписка</Form>
 			<Command uuid="2fb64f62-9b1e-495d-8862-d095810c06c7">
 				<Properties>
-					<Name>ИсходящиеСообщения</Name>
+					<Name>СправочникИсходящиеСообщения</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Исходящие сообщения</v8:content>
+							<v8:content>Исходящие сообщения (справочник)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Group>NavigationPanelSeeAlso</Group>
 					<CommandParameterType/>
 					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>MakeDisable</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
+			<Command uuid="16f2414c-b5fb-4d06-ba2f-415ed30329e7">
+				<Properties>
+					<Name>ЗарегистрироватьКОтправке</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Зарегистрировать к отправке</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.обм_КоманднаяПанельФормы</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.обм_ИсходящиеСообщения</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Multiple</ParameterUseMode>
 					<ModifiesData>false</ModifiesData>
 					<Representation>Auto</Representation>
 					<ToolTip/>
