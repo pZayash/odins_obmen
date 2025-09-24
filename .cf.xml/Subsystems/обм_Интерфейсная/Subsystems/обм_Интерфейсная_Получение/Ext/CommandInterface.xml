@@ -1,32 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<CommandsVisibility>
-		<Command name="0:43b40f97-face-4af8-ba73-382785c90160">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-	</CommandsVisibility>
-	<CommandsPlacement>
-		<Command name="0:43b40f97-face-4af8-ba73-382785c90160">
-			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
-	</CommandsPlacement>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<CommandsOrder>
 		<Command name="Catalog.обм_ВходящиеСообщения.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="0:1fcfd971-c5bd-4e2c-844e-62f47e1c325e">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		<Command name="InformationRegister.обм_Приемники.Command.ПриемникиПакетовДанных">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
-		<Command name="0:44de02cf-e327-4548-a6c9-baaab25d0987">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="0:2c71fcef-ee43-4978-998b-8c65581d3c54">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="0:43b40f97-face-4af8-ba73-382785c90160">
+		<Command name="InformationRegister.обм_Приемники_ЗагруженныеПакетыДанных.Command.ЗагруженныеПакетыДанных">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
 	</CommandsOrder>
