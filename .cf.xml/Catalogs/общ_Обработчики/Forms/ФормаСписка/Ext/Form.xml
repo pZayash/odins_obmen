@@ -8,6 +8,11 @@
 				<CommandName>Form.Command.НастройкаОтладкиОбработчиков</CommandName>
 				<ExtendedTooltip name="ФормаНастройкаОтладкиОбработчиковРасширеннаяПодсказка" id="23"/>
 			</Button>
+			<Button name="ФормаЗагрузитьИзФайла" id="37">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОбновитьИзФайла</CommandName>
+				<ExtendedTooltip name="ФормаЗагрузитьИзФайлаРасширеннаяПодсказка" id="38"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
@@ -181,6 +186,24 @@
 				</v8:item>
 			</ToolTip>
 			<Action>НастройкаОтладкиОбработчиков</Action>
+		</Command>
+		<Command name="ОбновитьИзФайла" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить из файла...</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить обработку (отчет) из файла на компьютере</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьИзФайла</Action>
+			<Representation>Picture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 </Form>
