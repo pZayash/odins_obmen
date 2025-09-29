@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>odin</Vendor>
-			<Version>250919.02</Version>
+			<Version>250929.01</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -289,9 +289,9 @@
 			<Report>обм_АнализЖурналаРегистрации</Report>
 			<DataProcessor>обм_HTTPЗапросЭмуляция</DataProcessor>
 			<DataProcessor>обм_ИнтерфейсОбработчиков_ВходящиеСообщение_ИзвлечениеПакетовДанных</DataProcessor>
-			<DataProcessor>обм_ИнтерфейсОбработчиков_ИсходящиеСообщения_СозданиеАдресацияОтправка</DataProcessor>
+			<DataProcessor>обм_ИнтерфейсОбработчиков_ИсходящиеСообщения</DataProcessor>
+			<DataProcessor>обм_ИнтерфейсОбработчиков_ОбъектыИБ</DataProcessor>
 			<DataProcessor>обм_ИнтерфейсОбработчиков_ПакетыДанных_Обработка</DataProcessor>
-			<DataProcessor>обм_ИнтерфейсОбработчиков_РегистрацияИзмененных</DataProcessor>
 			<DataProcessor>обм_ПакетыДанных_Обработка</DataProcessor>
 			<DataProcessor>общ_ЖурналРегистрации</DataProcessor>
 			<DataProcessor>общ_КонсольКода</DataProcessor>
