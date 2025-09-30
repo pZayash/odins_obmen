@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
 		<ChildItems>
 			<Button name="ФормаОтправитьПослание" id="37">
 				<Type>CommandBarButton</Type>
@@ -12,28 +13,11 @@
 				<CommandName>Form.Command.ОтправитьПосланиеИУдалитьРегистрацию</CommandName>
 				<ExtendedTooltip name="ФормаОтправитьПосланиеИУдалитьРегистрациюРасширеннаяПодсказка" id="40"/>
 			</Button>
-			<Popup name="ГруппаОбработчики" id="45">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Обработчики</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Группа обработчики</v8:content>
-					</v8:item>
-				</ToolTip>
-				<ExtendedTooltip name="ГруппаОбработчикиРасширеннаяПодсказка" id="46"/>
-				<ChildItems>
-					<Button name="ФормаОткрытьСписокОбработчиков" id="57">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.ОткрытьСписокОбработчиков</CommandName>
-						<ExtendedTooltip name="ФормаОткрытьСписокОбработчиковРасширеннаяПодсказка" id="58"/>
-					</Button>
-				</ChildItems>
-			</Popup>
+			<Button name="ФормаУдалитьВсе" id="72">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.УдалитьВсе</CommandName>
+				<ExtendedTooltip name="ФормаУдалитьВсеРасширеннаяПодсказка" id="73"/>
+			</Button>
 			<Button name="ФормаПереключитьРегламентное" id="41">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ПереключитьРегламентное</CommandName>
@@ -43,6 +27,16 @@
 				<Type>CommandBarButton</Type>
 				<CommandName>Catalog.обм_ИсходящиеСообщения.Command.СправочникИсходящиеСообщения</CommandName>
 				<ExtendedTooltip name="ФормаСправочникобм_ИсходящиеСообщенияСправочникИсходящиеСообщенияРасширеннаяПодсказка" id="71"/>
+			</Button>
+			<Button name="ФормаДобавитьЗапросом" id="74">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ДобавитьЗапросом</CommandName>
+				<ExtendedTooltip name="ФормаДобавитьЗапросомРасширеннаяПодсказка" id="75"/>
+			</Button>
+			<Button name="ФормаОткрытьСписокОбработчиков" id="57">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОткрытьСписокОбработчиков</CommandName>
+				<ExtendedTooltip name="ФормаОткрытьСписокОбработчиковРасширеннаяПодсказка" id="58"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -298,6 +292,36 @@
 			</ToolTip>
 			<Action>ПоказатьРазмерОчереди</Action>
 			<Representation>Text</Representation>
+		</Command>
+		<Command name="УдалитьВсе" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьВсе</Action>
+		</Command>
+		<Command name="ДобавитьЗапросом" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить запросом</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить запросом</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьЗапросом</Action>
 		</Command>
 	</Commands>
 </Form>
