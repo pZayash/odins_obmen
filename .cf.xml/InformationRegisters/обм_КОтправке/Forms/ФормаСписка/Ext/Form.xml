@@ -23,20 +23,15 @@
 				<CommandName>Form.Command.ПереключитьРегламентное</CommandName>
 				<ExtendedTooltip name="ФормаПереключитьРегламентноеРасширеннаяПодсказка" id="42"/>
 			</Button>
-			<Button name="ФормаСправочникобм_ИсходящиеСообщенияСправочникИсходящиеСообщения" id="70">
-				<Type>CommandBarButton</Type>
-				<CommandName>Catalog.обм_ИсходящиеСообщения.Command.СправочникИсходящиеСообщения</CommandName>
-				<ExtendedTooltip name="ФормаСправочникобм_ИсходящиеСообщенияСправочникИсходящиеСообщенияРасширеннаяПодсказка" id="71"/>
-			</Button>
 			<Button name="ФормаДобавитьЗапросом" id="74">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ДобавитьЗапросом</CommandName>
 				<ExtendedTooltip name="ФормаДобавитьЗапросомРасширеннаяПодсказка" id="75"/>
 			</Button>
-			<Button name="ФормаОткрытьСписокОбработчиков" id="57">
+			<Button name="ФормаСправочникИсходящиеСообщения" id="70">
 				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.ОткрытьСписокОбработчиков</CommandName>
-				<ExtendedTooltip name="ФормаОткрытьСписокОбработчиковРасширеннаяПодсказка" id="58"/>
+				<CommandName>Catalog.обм_ИсходящиеСообщения.Command.СправочникИсходящиеСообщения</CommandName>
+				<ExtendedTooltip name="ФормаСправочникИсходящиеСообщенияРасширеннаяПодсказка" id="71"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -261,21 +256,6 @@
 			</ToolTip>
 			<Action>ПереключитьРегламентное</Action>
 			<Representation>TextPicture</Representation>
-		</Command>
-		<Command name="ОткрытьСписокОбработчиков" id="10">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Все обработчики</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть список обработчиков</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОткрытьСписокОбработчиков</Action>
 		</Command>
 		<Command name="ПоказатьРазмерОчереди" id="4">
 			<Title>

@@ -1,39 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
 		<ChildItems>
 			<Button name="ФормаАдресацияКОтправке" id="25">
 				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.АдресацияКОтправкеБезУдаленияРегистрации</CommandName>
+				<CommandName>Form.Command.КОтправке</CommandName>
 				<ExtendedTooltip name="ФормаАдресацияКОтправкеРасширеннаяПодсказка" id="26"/>
 			</Button>
 			<Button name="ФормаАдресацияКОтправкеСУдалениемРегистрации" id="32">
 				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.АдресацияКОтправкеСУдалениемРегистрации</CommandName>
+				<CommandName>Form.Command.КОтправкеСУдалениемРегистрации</CommandName>
 				<ExtendedTooltip name="ФормаАдресацияКОтправкеСУдалениемРегистрацииРасширеннаяПодсказка" id="33"/>
 			</Button>
-			<Popup name="ГруппаОбработчики" id="34">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Обработчики</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Группа обработчики</v8:content>
-					</v8:item>
-				</ToolTip>
-				<ExtendedTooltip name="ГруппаОбработчикиРасширеннаяПодсказка" id="35"/>
-				<ChildItems>
-					<Button name="ФормаОткрытьОбработчикОтправкиСообщения" id="46">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.ОткрытьСписокОбработчиков</CommandName>
-						<ExtendedTooltip name="ФормаОткрытьОбработчикОтправкиСообщенияРасширеннаяПодсказка" id="47"/>
-					</Button>
-				</ChildItems>
-			</Popup>
+			<Button name="ФормаРегистрСведенийобм_КОтправкеОчередьКОтправке" id="56">
+				<Type>CommandBarButton</Type>
+				<CommandName>InformationRegister.обм_КОтправке.Command.ОчередьКОтправке</CommandName>
+				<ExtendedTooltip name="ФормаРегистрСведенийобм_КОтправкеОчередьКОтправкеРасширеннаяПодсказка" id="57"/>
+			</Button>
 			<Button name="ФормаПереключитьРегламентное" id="27">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ПереключитьРегламентное</CommandName>
@@ -199,7 +183,7 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="АдресацияКОтправкеБезУдаленияРегистрации" id="1">
+		<Command name="КОтправке" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -209,7 +193,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Адресация к отправке без удаления регистрации</v8:content>
+					<v8:content>К отправке</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>КОтправке</Action>
@@ -230,7 +214,7 @@
 			<Action>ПереключитьРегламентное</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
-		<Command name="АдресацияКОтправкеСУдалениемРегистрации" id="3">
+		<Command name="КОтправкеСУдалениемРегистрации" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -243,22 +227,7 @@
 					<v8:content>Адресация к отправке</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>КОтправке</Action>
-		</Command>
-		<Command name="ОткрытьСписокОбработчиков" id="9">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Все обработчики</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть список обработчиков</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОткрытьСписокОбработчиков</Action>
+			<Action>КОтправкеСУдалениемРегистрации</Action>
 		</Command>
 		<Command name="ПоказатьРазмерОчереди" id="4">
 			<Title>

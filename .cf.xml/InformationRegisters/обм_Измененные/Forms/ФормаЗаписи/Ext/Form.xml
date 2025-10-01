@@ -19,7 +19,7 @@
 			<ExtendedTooltip name="ВерсияДанныхРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<InputField name="УзелОтправитель" id="10">
-			<DataPath>Запись.УзелОтправитель</DataPath>
+			<DataPath>1/0:eab89d41-d68f-4aa1-9227-ad38b95d37db</DataPath>
 			<ContextMenu name="УзелОтправительКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="УзелОтправительРасширеннаяПодсказка" id="12"/>
 		</InputField>
