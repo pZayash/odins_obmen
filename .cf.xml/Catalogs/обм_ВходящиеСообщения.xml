@@ -662,12 +662,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
-								<v8:StringQualifiers>
-									<v8:Length>254</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
+								<v8:TypeSet>cfg:DefinedType.общ_ПримитивныйТип</v8:TypeSet>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -823,10 +818,7 @@
 					<ModifiesData>false</ModifiesData>
 					<Representation>Picture</Representation>
 					<ToolTip/>
-					<Picture>
-						<xr:Ref>0</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
+					<Picture/>
 					<Shortcut/>
 					<OnMainServerUnavalableBehavior>DontChangeBehavior</OnMainServerUnavalableBehavior>
 				</Properties>
