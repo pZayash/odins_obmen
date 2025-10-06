@@ -9,13 +9,13 @@
 					<v8:content>обмен</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>@TODO Прежде чем отключать ВызовСервера убрать вызовы ВходящееСообщение_Параметр_Значение с клиента</Comment>
 			<Global>false</Global>
 			<ClientManagedApplication>false</ClientManagedApplication>
 			<Server>true</Server>
 			<ExternalConnection>true</ExternalConnection>
 			<ClientOrdinaryApplication>true</ClientOrdinaryApplication>
-			<ServerCall>false</ServerCall>
+			<ServerCall>true</ServerCall>
 			<Privileged>false</Privileged>
 			<ReturnValuesReuse>DontUse</ReturnValuesReuse>
 		</Properties>
