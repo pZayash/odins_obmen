@@ -33,7 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Получение_1_ПакетыДанных_Извлечь</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ПакетыДанных_Обработка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ИнтерфейсОбработчиков_ПакетыДанных_Обработка</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">94808d2e-ef59-4143-8de9-ef909bb325f3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.обм_КоманднаяПанельФормы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

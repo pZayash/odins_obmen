@@ -26,8 +26,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ИнтерфейсОбработчиков_ОбъектыИБ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_ИнтерфейсОбработчиков_ИсходящиеСообщения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_ОтправленныеСообщения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">3b11cf07-0fb6-4516-a64b-b44a01491d56</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.обм_ИсходящиеСообщения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.обм_КоманднаяПанельФормы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

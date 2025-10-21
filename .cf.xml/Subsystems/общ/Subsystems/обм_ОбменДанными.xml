@@ -24,12 +24,13 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.обм_категория</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.общ_Обработчики</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.обм_БазовыеПрава</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">352fc60f-bda9-4935-adce-9f032059afd2</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.обм_АнализЖурналаРегистрации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.обм_лит</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.обм_Команды</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.обм_КомандыКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.обм_ИконкаПодсистемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.обм_ПанельКоманд</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.обм_ПанельКоманд</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

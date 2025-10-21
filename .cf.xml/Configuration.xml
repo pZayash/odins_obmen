@@ -278,9 +278,11 @@
 			<DefinedType>общ_sha256</DefinedType>
 			<DefinedType>общ_ВерсияДанных</DefinedType>
 			<DefinedType>общ_ПримитивныйТип</DefinedType>
+			<CommonCommand>обм_ПанельКоманд</CommonCommand>
 			<CommandGroup>обм_КоманднаяПанельФормы</CommandGroup>
 			<Constant>общ_ИдентификаторИнформационнойБазы</Constant>
 			<CommonForm>обм_ВходящиеСообщения_ЗагрузкаИзФайла</CommonForm>
+			<CommonForm>обм_ПанельКоманд</CommonForm>
 			<Catalog>обм_ВходящиеСообщения</Catalog>
 			<Catalog>обм_ИсходящиеСообщения</Catalog>
 			<Catalog>обм_ПакетыДанных</Catalog>
