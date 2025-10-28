@@ -3,6 +3,14 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
+			<Button name="ФормаОбновить" id="58">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.Item.Список.StandardCommand.Refresh</CommandName>
+				<RepresentationInContextMenu>AdditionalInContextMenu</RepresentationInContextMenu>
+				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="59"/>
+			</Button>
 			<Button name="ФормаАдресацияКОтправке" id="25">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.КОтправке</CommandName>
