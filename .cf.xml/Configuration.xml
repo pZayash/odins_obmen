@@ -265,6 +265,7 @@
 			<CommonModule>обм_лит</CommonModule>
 			<CommonModule>общ</CommonModule>
 			<CommonModule>общ_Клиент</CommonModule>
+			<CommonModule>общ_КлиентСервер</CommonModule>
 			<CommonModule>общ_Кэш</CommonModule>
 			<HTTPService>obm</HTTPService>
 			<EventSubscription>обм_ПриЗаписи</EventSubscription>
