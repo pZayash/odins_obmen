@@ -24,7 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.обм_категория</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.общ_Обработчики</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.обм_БазовыеПрава</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.обм_АнализЖурналаРегистрации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">77c1ca9e-d4bc-4e7e-9e2b-cf324fd3dcdd</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.обм_лит</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.обм_команды</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.обм_командыКлиент</xr:Item>

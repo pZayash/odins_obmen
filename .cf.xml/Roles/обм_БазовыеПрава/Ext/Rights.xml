@@ -19,17 +19,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.обм_АнализЖурналаРегистрации</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.обм_Измененные</name>
 		<right>
 			<name>Read</name>
