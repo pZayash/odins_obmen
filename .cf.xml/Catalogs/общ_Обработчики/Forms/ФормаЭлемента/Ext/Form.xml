@@ -42,8 +42,12 @@
 		</InputField>
 		<InputField name="ПутьКФайлуДляОтладки" id="21">
 			<DataPath>Объект.ПутьКФайлуДляОтладки</DataPath>
+			<ChoiceButton>true</ChoiceButton>
 			<ContextMenu name="ПутьКФайлуДляОтладкиКонтекстноеМеню" id="22"/>
 			<ExtendedTooltip name="ПутьКФайлуДляОтладкиРасширеннаяПодсказка" id="23"/>
+			<Events>
+				<Event name="StartChoice">ПутьКФайлуДляОтладкиНачалоВыбора</Event>
+			</Events>
 		</InputField>
 		<InputField name="ВерсияИнтерфейса" id="18">
 			<DataPath>Объект.ВерсияИнтерфейса</DataPath>
