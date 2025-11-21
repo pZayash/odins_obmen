@@ -458,7 +458,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Исходящие сообщения (справочник)</v8:content>
+							<v8:content>обм: Исходящие сообщения</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -479,7 +479,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Зарегистрировать к отправке</v8:content>
+							<v8:content>обм: Зарегистрировать к отправке</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

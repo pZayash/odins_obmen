@@ -137,7 +137,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.обм_ВходящиеСообщения.Command.Обработать</name>
+		<name>Catalog.обм_ВходящиеСообщения.Command.ПакетыДанных_Обработать</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

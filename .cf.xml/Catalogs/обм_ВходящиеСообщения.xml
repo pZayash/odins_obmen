@@ -735,7 +735,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Извлечь пакеты данных из входящих сообщений (обм)</v8:content>
+							<v8:content>обм: Извлечь пакеты данных из входящих сообщений</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -754,11 +754,11 @@
 			</Command>
 			<Command uuid="77f4aaf1-6672-4bcc-bcda-2c924be5669f">
 				<Properties>
-					<Name>Обработать</Name>
+					<Name>ПакетыДанных_Обработать</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Обработать</v8:content>
+							<v8:content>обм: Обработать пакеты данных входящих сообщений</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -767,7 +767,7 @@
 						<v8:Type>cfg:CatalogRef.обм_ВходящиеСообщения</v8:Type>
 					</CommandParameterType>
 					<ParameterUseMode>Multiple</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
+					<ModifiesData>true</ModifiesData>
 					<Representation>Auto</Representation>
 					<ToolTip/>
 					<Picture/>
@@ -781,7 +781,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Установить статус</v8:content>
+							<v8:content>обм: Установить статус входящих сообщений</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
