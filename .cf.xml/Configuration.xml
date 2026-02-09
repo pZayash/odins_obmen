@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>odin</Vendor>
-			<Version>251211.02</Version>
+			<Version>260209.01</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -250,8 +250,8 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>общ</Subsystem>
 			<Subsystem>обм_Интерфейсная</Subsystem>
+			<Subsystem>общ</Subsystem>
 			<StyleItem>общ_ШрифтМоноширинный</StyleItem>
 			<CommonPicture>обм_ИконкаПодсистемы</CommonPicture>
 			<SessionParameter>обм_ОбменДанными_Загрузка</SessionParameter>
