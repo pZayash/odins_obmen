@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -15,6 +16,7 @@
 		<InputField name="ДатаВремя" id="1">
 			<DataPath>Объект.ДатаВремя</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="ДатаВремяКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ДатаВремяРасширеннаяПодсказка" id="3"/>
 		</InputField>
@@ -31,6 +33,7 @@
 					<v8:content>Группа источник</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Group>HorizontalIfPossible</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаИсточникРасширеннаяПодсказка" id="44"/>
@@ -38,6 +41,7 @@
 				<InputField name="Источник" id="4">
 					<DataPath>Объект.Источник</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ИсточникКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="ИсточникРасширеннаяПодсказка" id="6"/>
 				</InputField>
@@ -50,6 +54,7 @@
 		<InputField name="ИсходящееСообщение" id="10">
 			<DataPath>Объект.ТекстСообщения</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<AutoMaxHeight>false</AutoMaxHeight>
 			<HorizontalStretch>true</HorizontalStretch>
@@ -76,6 +81,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
+			<Representation>WeakSeparation</Representation>
 			<ExtendedTooltip name="ГруппаПолучателиРасширеннаяПодсказка" id="39"/>
 			<ChildItems>
 				<Table name="Получатели" id="19">
@@ -84,6 +90,8 @@
 					<HeightControlVariant>UseHeightInTableRows</HeightControlVariant>
 					<AutoMaxRowsCount>false</AutoMaxRowsCount>
 					<MaxRowsCount>5</MaxRowsCount>
+					<RowSelectionMode>Cell</RowSelectionMode>
+					<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
@@ -120,12 +128,14 @@
 						<LabelField name="ПолучателиНомерСтроки" id="32">
 							<DataPath>Объект.Получатели.LineNumber</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПолучателиНомерСтрокиКонтекстноеМеню" id="33"/>
 							<ExtendedTooltip name="ПолучателиНомерСтрокиРасширеннаяПодсказка" id="34"/>
 						</LabelField>
 						<InputField name="ПолучателиУзел" id="35">
 							<DataPath>Объект.Получатели.Узел</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПолучателиУзелКонтекстноеМеню" id="36"/>
 							<ExtendedTooltip name="ПолучателиУзелРасширеннаяПодсказка" id="37"/>
 						</InputField>
@@ -134,6 +144,7 @@
 				<InputField name="ОбработчикОтправки" id="7">
 					<DataPath>Объект.ОбработчикОтправки</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ОбработчикОтправкиКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="ОбработчикОтправкиРасширеннаяПодсказка" id="9"/>
 				</InputField>

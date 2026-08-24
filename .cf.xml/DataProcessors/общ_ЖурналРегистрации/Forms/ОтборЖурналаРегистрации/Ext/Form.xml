@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Width>90</Width>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -95,6 +97,7 @@
 		</UsualGroup>
 		<UsualGroup name="Группа" id="195">
 			<Group>Horizontal</Group>
+			<Representation>WeakSeparation</Representation>
 			<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="206"/>
 			<ChildItems>
 				<UsualGroup name="Группа3" id="196">
@@ -151,8 +154,9 @@
 							<SelectionMode>SingleRow</SelectionMode>
 							<RowSelectionMode>Row</RowSelectionMode>
 							<Header>false</Header>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<HorizontalStretch>false</HorizontalStretch>
 							<VerticalStretch>false</VerticalStretch>
 							<FileDragMode>AsFile</FileDragMode>
@@ -195,7 +199,6 @@
 								<CheckBoxField name="ПометкаВажности" id="108">
 									<DataPath>Важность.Check</DataPath>
 									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПометкаВажностиКонтекстноеМеню" id="109"/>
 									<ExtendedTooltip name="ПометкаВажностиРасширеннаяПодсказка" id="222"/>
 								</CheckBoxField>
@@ -228,6 +231,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Representation>WeakSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОсновныеРасширеннаяПодсказка" id="224"/>
@@ -344,6 +348,7 @@
 		</UsualGroup>
 		<UsualGroup name="ГруппаПрочиеСвойства" id="164">
 			<Group>Horizontal</Group>
+			<Representation>WeakSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПрочиеСвойстваРасширеннаяПодсказка" id="233"/>
@@ -455,8 +460,9 @@
 							<SelectionMode>SingleRow</SelectionMode>
 							<RowSelectionMode>Row</RowSelectionMode>
 							<Header>false</Header>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<VerticalStretch>false</VerticalStretch>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СтатусТранзакции</DataPath>
@@ -504,7 +510,6 @@
 								<CheckBoxField name="ПометкаСтатуса" id="118">
 									<DataPath>СтатусТранзакции.Check</DataPath>
 									<FooterHorizontalAlign>Left</FooterHorizontalAlign>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПометкаСтатусаКонтекстноеМеню" id="119"/>
 									<ExtendedTooltip name="ПометкаСтатусаРасширеннаяПодсказка" id="251"/>
 								</CheckBoxField>
@@ -535,6 +540,7 @@
 					<TextColor>style:ButtonTextColor</TextColor>
 					<BackColor>style:ButtonBackColor</BackColor>
 					<BorderColor>style:BorderColor</BorderColor>
+					<ButtonImportance>Main</ButtonImportance>
 					<ExtendedTooltip name="OKРасширеннаяПодсказка" id="254"/>
 				</Button>
 				<Button name="Отменить" id="29">

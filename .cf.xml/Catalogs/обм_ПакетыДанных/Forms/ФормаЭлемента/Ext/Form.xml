@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
@@ -32,35 +34,38 @@
 							<v8:content>Группа страница основная</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="ГруппаСтраницаОсновнаяРасширеннаяПодсказка" id="48"/>
 					<ChildItems>
 						<InputField name="Узел" id="10">
 							<DataPath>Объект.Узел</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="УзелКонтекстноеМеню" id="11"/>
 							<ExtendedTooltip name="УзелРасширеннаяПодсказка" id="12"/>
 						</InputField>
 						<InputField name="Категория" id="13">
 							<DataPath>Объект.Категория</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КатегорияКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="КатегорияРасширеннаяПодсказка" id="15"/>
 						</InputField>
 						<InputField name="Идентификатор" id="16">
 							<DataPath>Объект.Идентификатор</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ИдентификаторКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="18"/>
 						</InputField>
 						<CheckBoxField name="НеСоздаватьНовыйПриемник" id="74">
 							<DataPath>Объект.ОтказСозданияНовогоПриемника</DataPath>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="НеСоздаватьНовыйПриемникКонтекстноеМеню" id="75"/>
 							<ExtendedTooltip name="НеСоздаватьНовыйПриемникРасширеннаяПодсказка" id="76"/>
 						</CheckBoxField>
 						<CheckBoxField name="НеОбновлятьСуществующийПриемник" id="77">
 							<DataPath>Объект.ОтказПерезаписиПриемника</DataPath>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="НеОбновлятьСуществующийПриемникКонтекстноеМеню" id="78"/>
 							<ExtendedTooltip name="НеОбновлятьСуществующийПриемникРасширеннаяПодсказка" id="79"/>
 						</CheckBoxField>
@@ -78,6 +83,7 @@
 						<InputField name="Владелец" id="7">
 							<DataPath>Объект.Owner</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
 						</InputField>
@@ -94,12 +100,14 @@
 						<InputField name="Наименование" id="4">
 							<DataPath>Объект.Description</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 						</InputField>
 						<InputField name="Код" id="1">
 							<DataPath>Объект.Code</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 						</InputField>
@@ -118,6 +126,8 @@
 							<v8:content>Группа страница входящие данные</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="ГруппаСтраницаВходящиеДанныеРасширеннаяПодсказка" id="50"/>
 					<ChildItems>
 						<InputField name="ПредставлениеКатегории" id="62">
@@ -128,6 +138,7 @@
 						<InputField name="ВходящиеДанные" id="19">
 							<DataPath>Объект.Данные</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<Font ref="style:общ_ШрифтМоноширинный" kind="StyleItem"/>
 							<ContextMenu name="ВходящиеДанныеКонтекстноеМеню" id="20"/>
@@ -158,6 +169,7 @@
 									<v8:content>Группа параметры входящих данных</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Group>HorizontalIfPossible</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПараметрыВходящихДанныхРасширеннаяПодсказка" id="38"/>
@@ -166,6 +178,7 @@
 									<DataPath>Объект.Данные_sha256</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>1</Height>
 									<AutoMaxHeight>false</AutoMaxHeight>
@@ -184,6 +197,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВходящиеДанные_ДлинаКонтекстноеМеню" id="26"/>
 									<ExtendedTooltip name="ВходящиеДанные_ДлинаРасширеннаяПодсказка" id="27"/>
 								</InputField>
