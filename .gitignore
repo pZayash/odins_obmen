@@ -10,3 +10,7 @@ ConfigDumpInfo.xml
 *.erf
 *.n1
 *.png
+
+# obm-sync from кпср (state + pending); keep readme only
+.obm-sync/*
+!.obm-sync/readme.md
