@@ -1,0 +1,11 @@
+# LOCAL vs cc-1c junction (harness/skills/cc-1c/)
+# Overlay kit skills сюда НЕ писать — их линкует link-cursor-overlay.
+
+web-test
+sandbox
+evolve
+print-deploy-external
+print-export-to-file
+vendor-merge-check
+diarize
+merge-audit

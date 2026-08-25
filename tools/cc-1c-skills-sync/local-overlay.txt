@@ -1,0 +1,2 @@
+# Overlay LOCAL — имена из harness/cursor, которые этот потребитель НЕ линкует.
+# Пусто: весь overlay kit линкуем. Форки overlay сюда.
