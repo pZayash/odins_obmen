@@ -6,8 +6,8 @@
 
 ## Что делает sync (без LLM, без автокоммита)
 
-1. Копирует объекты `обм_` / `общ_` из `conf/` source → `.cf.xml/` этого репо.
-2. Патчит только `ChildObjects` в `.cf.xml/Configuration.xml` (весь файл не
+1. Копирует объекты `обм_` / `общ_` из `conf/` source → `src/cf/` этого репо.
+2. Патчит только `ChildObjects` в `src/cf/Configuration.xml` (весь файл не
    перезаписывает).
 3. **Не** вызывает `git commit`.
 4. Обновляет состояние и кладёт сводку в `pending/`.
@@ -36,7 +36,7 @@ Target override: env `OBM_SYNC_TARGET` или `--target` (часто worktree
 
 ## Как разбирать (maintainer)
 
-1. `git status` / `git diff -- .cf.xml` — что приехало в working tree.
+1. `git status` / `git diff -- src/cf` — что приехало в working tree.
 2. Открыть свежий `pending/*.md`: batches, `Obm-Source`, списки Files/Objects,
    subject/body исходного коммита.
 3. Разбить на логичные коммиты (вручную или агентом), сообщения — свои.

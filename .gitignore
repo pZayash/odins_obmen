@@ -1,6 +1,5 @@
 .webhook.test
 .tmp/
-src/
 .sh.cfg
 ConfigDumpInfo.xml
 *.cfe
@@ -10,6 +9,17 @@ ConfigDumpInfo.xml
 *.erf
 *.n1
 *.png
+
+# kit links (bootstrap); blobs live in harness/
+.cursor/
+.agents/
+.claude/
+tools/mailbox/
+tools/bsl-check/
+tools/sandbox/
+tools/load-changed-files/
+tools/git-partial-stage.py
+.env
 
 # obm-sync from кпср (state + pending); keep readme only
 .obm-sync/*
