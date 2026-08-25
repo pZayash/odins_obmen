@@ -9,7 +9,7 @@
 		<Command name="0:2c71fcef-ee43-4978-998b-8c65581d3c54">
 			<Visibility>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="101a4eb3-cdda-47af-8c69-615a6920347a">true</xr:Value>
+				<xr:Value name="Role.Администрирование">true</xr:Value>
 			</Visibility>
 		</Command>
 	</CommandsVisibility>
@@ -35,7 +35,7 @@
 		<Command name="0:2c71fcef-ee43-4978-998b-8c65581d3c54">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="0:92707138-5004-4378-8477-f909166d319d">
+		<Command name="Catalog.ДополнительныеОтчетыИОбработки.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>

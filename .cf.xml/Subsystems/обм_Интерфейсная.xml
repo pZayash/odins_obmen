@@ -20,7 +20,10 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.общ_Обработчики</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">0fbc1ea7-4fc5-4461-b396-15ec63d1076d</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.общ_ПолныеПрава</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.обм_Настройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Очистка_ВходящиеСообщения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Очистка_ИсходящиеСообщения</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

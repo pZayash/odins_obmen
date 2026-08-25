@@ -287,6 +287,8 @@
 			<ScheduledJob>обм_Отправка_2_ИсходящиеСообщения_Отправить</ScheduledJob>
 			<ScheduledJob>обм_Получение_1_ПакетыДанных_Извлечь</ScheduledJob>
 			<ScheduledJob>обм_Получение_2_ПакетыДанных_Обработать</ScheduledJob>
+			<ScheduledJob>обм_Очистка_ВходящиеСообщения</ScheduledJob>
+			<ScheduledJob>обм_Очистка_ИсходящиеСообщения</ScheduledJob>
 			<DefinedType>обм_ид</DefinedType>
 			<DefinedType>обм_категория</DefinedType>
 			<DefinedType>обм_узел</DefinedType>
@@ -302,6 +304,7 @@
 			<Catalog>обм_ИсходящиеСообщения</Catalog>
 			<Catalog>обм_ПакетыДанных</Catalog>
 			<Catalog>общ_Обработчики</Catalog>
+			<Catalog>обм_Настройки</Catalog>
 			<Enum>обм_ВходящиеСообщения_ИсточникиПараметров</Enum>
 			<Enum>обм_ВходящиеСообщения_Статусы</Enum>
 			<DataProcessor>обм_HTTPЗапросЭмуляция</DataProcessor>

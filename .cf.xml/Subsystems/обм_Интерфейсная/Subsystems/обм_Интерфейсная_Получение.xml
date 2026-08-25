@@ -21,6 +21,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_ВходящиеСообщения_Статусы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_Приемники</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.обм_Приемники_ЗагруженныеПакетыДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.обм_Очистка_ВходящиеСообщения</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

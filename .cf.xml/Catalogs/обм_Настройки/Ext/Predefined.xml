@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.21">
+	<Item id="dd6a1faa-214a-42bb-b51f-08e8335d6b9d">
+		<Name>ОчисткаВходящих</Name>
+		<Code/>
+		<Description>Очистка входящих</Description>
+		<IsFolder>false</IsFolder>
+		<СрокХраненияДней>30</СрокХраненияДней>
+	</Item>
+	<Item id="27669985-55e7-493a-9060-6412c41ad2b3">
+		<Name>ОчисткаИсходящих</Name>
+		<Code/>
+		<Description>Очистка исходящих</Description>
+		<IsFolder>false</IsFolder>
+		<СрокХраненияДней>30</СрокХраненияДней>
+	</Item>
+</PredefinedData>
