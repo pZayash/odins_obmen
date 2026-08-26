@@ -5,13 +5,13 @@
 		<Code/>
 		<Description>Очистка входящих</Description>
 		<IsFolder>false</IsFolder>
-		<СрокХраненияДней>30</СрокХраненияДней>
+		<СрокХраненияДней>90</СрокХраненияДней>
 	</Item>
 	<Item id="27669985-55e7-493a-9060-6412c41ad2b3">
 		<Name>ОчисткаИсходящих</Name>
 		<Code/>
 		<Description>Очистка исходящих</Description>
 		<IsFolder>false</IsFolder>
-		<СрокХраненияДней>30</СрокХраненияДней>
+		<СрокХраненияДней>90</СрокХраненияДней>
 	</Item>
 </PredefinedData>

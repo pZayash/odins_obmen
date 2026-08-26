@@ -14,11 +14,6 @@
 				<CommandName>Form.Command.ПереключитьРегламентное</CommandName>
 				<ExtendedTooltip name="ФормаПереключитьРегламентноеРасширеннаяПодсказка" id="127"/>
 			</Button>
-			<Button name="ФормаОчиститьОчередь" id="200">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.ОчиститьОчередь</CommandName>
-				<ExtendedTooltip name="ФормаОчиститьОчередьРасширеннаяПодсказка" id="201"/>
-			</Button>
 			<Button name="ФормаПереключитьОчистку" id="202">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ПереключитьОчистку</CommandName>
@@ -28,6 +23,11 @@
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.УстановитьСрокХранения</CommandName>
 				<ExtendedTooltip name="ФормаУстановитьСрокХраненияРасширеннаяПодсказка" id="205"/>
+			</Button>
+			<Button name="ФормаОчиститьОчередь" id="200">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОчиститьОчередь</CommandName>
+				<ExtendedTooltip name="ФормаОчиститьОчередьРасширеннаяПодсказка" id="201"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
