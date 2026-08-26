@@ -37,15 +37,25 @@ Target override: env `OBM_SYNC_TARGET` или `--target` (часто worktree
 ## Как разбирать (maintainer)
 
 1. `git status` / `git diff -- src/cf` — что приехало в working tree.
-2. Открыть свежий `pending/*.md`: batches, `Obm-Source`, списки Files/Objects,
-   subject/body исходного коммита.
-3. Разбить на логичные коммиты (вручную или агентом), сообщения — свои.
-4. После коммита: удалить или архивировать обработанные `pending/*.md`.
-5. `last-source-sha` трогать не нужно — его ведёт sync. Если история source
-   переписана / state потерян — в source снова `--resync`.
-
-Опционально в сообщении коммита: trailer `Obm-Source: <sha>` (для людей;
-скрипт опирается на `last-source-sha`, не на trailer).
+   Истина = diff, не списки Files/Objects в pending: batch
+   `obm-sync post-incremental drift` — дамп snapshot, шум.
+2. Открыть свежий `pending/*.md`: batches, `Obm-Source`, subject/body
+   исходного коммита. Сверить с diff: лишнее в pending отбросить,
+   дыры в tree — заметить.
+3. **Ревью до коммита** (обязательно). Смотреть смысл приехавшего кода,
+   не только состав файлов: гонки, лишние удаления, сломанный API,
+   «пустой набор по измерению» вместо точечного, `Если Следующий`
+   вместо цикла. Ghost-dirty (`assume-unchanged`, hash = HEAD) в
+   коммит не брать.
+4. Дефект — **не коммитить**. Промпт на фикс агенту source-репо;
+   правки живут там, сюда снова приедут sync. Параллельно не чинить
+   в двух репо.
+5. Ревью ок — разбить на логичные коммиты (вручную или агентом),
+   сообщения свои. Опционально trailer `Obm-Source: <sha>` (для людей;
+   скрипт опирается на `last-source-sha`, не на trailer).
+6. После коммита: удалить или архивировать обработанные `pending/*.md`.
+7. `last-source-sha` трогать не нужно — его ведёт sync. Если история
+   source переписана / state потерян — в source снова `--resync`.
 
 ## Gitignore
 
