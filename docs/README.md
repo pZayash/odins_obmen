@@ -2,4 +2,4 @@
 
 | Файл | Зачем |
 | --- | --- |
-| [ai/versioning.md](ai/versioning.md) | версия подсистемы `YYMMDD.XX`, скрипт и pre-commit |
+| [ai/versioning.md](ai/versioning.md) | версия `YYMMDD.XX`, pre-commit, поставка `.cf` |
