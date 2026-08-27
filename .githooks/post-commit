@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# post-commit: файл поставки .cf → .tmp/<Version>_1Сv8.cf
+# Отключить: SKIP_CF_DUMP=1 git commit …
+# Канон: docs/ai/versioning.md
+
+set -euo pipefail
+
+if [[ "${SKIP_CF_DUMP:-}" == "1" ]]; then
+	exit 0
+fi
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+if ! bash tools/dump-distribution-cf.sh; then
+	echo "post-commit: поставка .cf не собралась (коммит уже записан)" >&2
+	echo "  лог: .tmp/dump-distribution-cf.log" >&2
+	echo "  пропуск: SKIP_CF_DUMP=1 git commit …" >&2
+	exit 1
+fi
+
+exit 0

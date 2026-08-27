@@ -57,13 +57,46 @@ git config core.hooksPath .githooks
 
 ```bash
 SKIP_VERSION_BUMP=1 git commit …
+SKIP_CF_DUMP=1 git commit …          # без файла поставки .cf
 ```
 
 Хук **стейджит весь** `Configuration.xml`. Грязный ChildObjects от obm-sync
 уедет в тот же коммит — либо сначала разбери sync, либо `SKIP_VERSION_BUMP`.
+
+## После каждого коммита
+
+Пост-коммит [`.githooks/post-commit`](.githooks/post-commit) собирает
+**файл поставки** (полный дистрибутив `.cf`, без `.cfu`) из текущей ИБ
+(`IB_CONNECTION` в `.env`):
+
+```text
+1cv8 CONFIG … /CreateDistributionFiles -cffile <путь>
+```
+
+Кладёт в `.tmp/` (каталог в `.gitignore`):
+
+```text
+.tmp/<Version>_1Сv8.cf
+```
+
+`<Version>` — из [`src/cf/Configuration.xml`](src/cf/Configuration.xml)
+(уже после pre-commit). Содержимое CF = конфигурация **в ИБ**, не XML
+на диске: сначала залей исходники (`./load-changed-files.sh -U`), иначе
+поставка отстанет от коммита.
+
+Вручную:
+
+```bash
+bash tools/dump-distribution-cf.sh
+```
+
+Конфигуратор открыт — хук закроет его (`AUTO_CLOSE_DESIGNER`, по
+умолчанию `true`). Коммит при ошибке сборки уже записан; хук только
+печатает лог `.tmp/dump-distribution-cf.log`.
 
 ## Для агентов
 
 - Не править `<Version>` вручную, если хук включён.
 - Хук не включён → перед коммитом `python tools/bump-version.py`.
 - Amend того же коммита без новой версии: `SKIP_VERSION_BUMP=1`.
+- Amend без пересборки `.cf`: `SKIP_CF_DUMP=1`.
