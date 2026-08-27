@@ -2,6 +2,7 @@
 .tmp/
 .sh.cfg
 ConfigDumpInfo.xml
+*.refrence
 *.cfe
 *.cf
 *.dt

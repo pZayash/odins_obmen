@@ -11,7 +11,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.УправлениеНебольшойФирмой</name>
+		<name>Configuration.odins_obmen</name>
 		<right>
 			<name>MainWindowModeNormal</name>
 			<value>true</value>

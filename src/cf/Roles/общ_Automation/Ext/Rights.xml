@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Configuration.УправлениеНебольшойФирмой</name>
+		<name>Configuration.odins_obmen</name>
 		<right>
 			<name>Automation</name>
 			<value>true</value>

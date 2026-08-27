@@ -928,7 +928,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.УправлениеНебольшойФирмой</name>
+		<name>Configuration.odins_obmen</name>
 		<right>
 			<name>Administration</name>
 			<value>true</value>
