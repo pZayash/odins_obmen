@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# pre-commit: поднять версию подсистемы (YYMMDD.XX) и добавить в индекс.
+# Отключить: SKIP_VERSION_BUMP=1 git commit …
+# Канон: docs/ai/versioning.md
+
+set -euo pipefail
+
+if [[ "${SKIP_VERSION_BUMP:-}" == "1" ]]; then
+	exit 0
+fi
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+if command -v python >/dev/null 2>&1; then
+	py=(python)
+elif command -v python3 >/dev/null 2>&1; then
+	py=(python3)
+elif command -v py >/dev/null 2>&1; then
+	py=(py -3)
+else
+	echo "pre-commit: python не найден — не могу поднять версию" >&2
+	echo "  поставь python или SKIP_VERSION_BUMP=1" >&2
+	exit 1
+fi
+
+"${py[@]}" tools/bump-version.py
+git add -- "src/cf/Configuration.xml"
+
+exit 0

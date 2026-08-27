@@ -8,7 +8,9 @@
 
 1. Копирует объекты `обм_` / `общ_` из `conf/` source → `src/cf/` этого репо.
 2. Патчит только `ChildObjects` в `src/cf/Configuration.xml` (весь файл не
-   перезаписывает).
+   перезаписывает). `<Version>` не трогает и из source не копирует — номер
+   поднимает pre-commit при коммите здесь
+   ([docs/ai/versioning.md](docs/ai/versioning.md)).
 3. **Не** вызывает `git commit`.
 4. Обновляет состояние и кладёт сводку в `pending/`.
 
