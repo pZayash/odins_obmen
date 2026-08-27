@@ -48,6 +48,21 @@ ib_config_auth_suffix() {
 		IB_CONFIG_AUTH="/N${u}"
 		[[ -n "$p" ]] && IB_CONFIG_AUTH+=" /P${p}"
 	fi
+	return 0
+}
+
+# Git Bash pwd = /c/foo → C:\foo. Простая замена слэшей даёт \c\foo — 1cv8 такое не ест.
+to_1c_win_path() {
+	local path="$1"
+	if command -v cygpath >/dev/null 2>&1; then
+		cygpath -w "$path"
+		return
+	fi
+	path=$(win_to_unix_path "$path")
+	if [[ "$path" =~ ^/([a-zA-Z])(/|$) ]]; then
+		path="${BASH_REMATCH[1]^^}:${path:2}"
+	fi
+	unix_to_win_path "$path"
 }
 
 dump_designer_log() {
@@ -89,23 +104,23 @@ OUT_DIR="${REPO_ROOT}/.tmp"
 # С = кириллица (U+0421), маска <Version>_1Сv8.cf
 CF_SUFFIX=$'1\u0421v8.cf'
 
+_designer_unix=$(win_to_unix_path "$DESIGNER_PATH")
 if [[ "${PROJECT_OS}" == "linux" ]]; then
-	_designer_unix=$(win_to_unix_path "$DESIGNER_PATH")
 	if [[ ! -x "$_designer_unix" ]]; then
 		_linux_default=$(resolve_designer_default)
 		if [[ -n "$_linux_default" && -x "$_linux_default" ]]; then
 			DESIGNER_PATH="$_linux_default"
+			_designer_unix="$DESIGNER_PATH"
 		fi
 	fi
 	DESIGNER_CMD="$DESIGNER_PATH"
 	IB_CONNECTION="${IB_CONNECTION//\"/}"
 	IB_CONNECTION="${IB_CONNECTION//\\}"
 else
-	DESIGNER_PATH=$(unix_to_win_path "$DESIGNER_PATH")
-	DESIGNER_CMD="$DESIGNER_PATH"
+	DESIGNER_CMD=$(to_1c_win_path "$_designer_unix")
 fi
 
-if [[ ! -x "$DESIGNER_CMD" && ! -f "$DESIGNER_CMD" ]]; then
+if [[ ! -x "$_designer_unix" && ! -f "$_designer_unix" ]]; then
 	log "ERROR" "1cv8 не найден: $DESIGNER_PATH"
 	exit 1
 fi
@@ -126,26 +141,47 @@ if [[ "${PROJECT_OS}" == "linux" ]]; then
 	cf_cmd="$cf_unix"
 	log_cmd="$log_unix"
 else
-	cf_cmd=$(unix_to_win_path "$cf_unix")
-	log_cmd=$(unix_to_win_path "$log_unix")
+	cf_cmd=$(to_1c_win_path "$cf_unix")
+	log_cmd=$(to_1c_win_path "$log_unix")
 fi
+
+run_designer_batch() {
+	local label="$1"
+	local batch="$2"
+	COMMAND="\"$DESIGNER_CMD\" CONFIG $IB_CONNECTION $IB_CONFIG_AUTH $batch /Out \"$log_cmd\" /DisableStartupDialogs /DisableStartupMessages"
+	log "INFO" "$label"
+	: > "$log_unix"
+	set +e
+	run_1c_command "$COMMAND"
+	exit_code=$?
+	set -e
+	if [[ $exit_code -ne 0 ]]; then
+		log "ERROR" "$label — код $exit_code"
+		dump_designer_log "$log_unix"
+		return 1
+	fi
+	return 0
+}
 
 ib_config_auth_suffix
 
 if [[ "$AUTO_CLOSE_DESIGNER" == "true" ]]; then
+	# process-1c.sh: powershell pipeline + pipefail = ложный fail, если процессов нет
+	set +e
 	close_1c_designer
+	set -e
 fi
 
-# /CreateDistributionFiles -cffile — полный дистрибутив (.cf). Без -cfufile.
-COMMAND="\"$DESIGNER_CMD\" CONFIG $IB_CONNECTION $IB_CONFIG_AUTH /CreateDistributionFiles -cffile \"$cf_cmd\" /Out \"$log_cmd\" /DisableStartupDialogs /DisableStartupMessages"
 log "INFO" "поставка $version → $cf_unix"
-set +e
-run_1c_command "$COMMAND"
-exit_code=$?
-set -e
-
-if [[ $exit_code -ne 0 || ! -s "$cf_unix" ]]; then
-	log "ERROR" "поставка не собралась (код $exit_code)"
+# CreateDistributionFiles требует совпадения основной конфигурации и конфигурации БД
+if ! run_designer_batch "UpdateDBCfg" "/UpdateDBCfg"; then
+	exit 1
+fi
+if ! run_designer_batch "CreateDistributionFiles" "/CreateDistributionFiles -cffile \"$cf_cmd\""; then
+	exit 1
+fi
+if [[ ! -s "$cf_unix" ]]; then
+	log "ERROR" "поставка не собралась — нет файла $cf_unix"
 	dump_designer_log "$log_unix"
 	exit 1
 fi
