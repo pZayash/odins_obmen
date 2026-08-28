@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>odin</Vendor>
-			<Version>260827.06</Version>
+			<Version>260828.01</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -316,6 +316,7 @@
 			<DataProcessor>обм_ПакетыДанных_Обработка</DataProcessor>
 			<DataProcessor>общ_ЖурналРегистрации</DataProcessor>
 			<DataProcessor>общ_КонсольКода</DataProcessor>
+			<DataProcessor>обм_Дашборд</DataProcessor>
 			<InformationRegister>обм_ВходящиеСообщения_Статусы</InformationRegister>
 			<InformationRegister>обм_Измененные</InformationRegister>
 			<InformationRegister>обм_КОтправке</InformationRegister>

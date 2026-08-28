@@ -31,6 +31,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.обм_ИконкаПодсистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.обм_ПанельКоманд</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.обм_ПанельКоманд</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.обм_Дашборд</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.обм_Дашборд</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

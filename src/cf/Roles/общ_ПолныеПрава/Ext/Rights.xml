@@ -1009,6 +1009,24 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.обм_Дашборд</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.обм_Дашборд</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.обм_ПанельКоманд</name>
 		<right>
 			<name>View</name>
