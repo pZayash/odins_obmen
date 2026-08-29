@@ -12,7 +12,14 @@ ConfigDumpInfo.xml
 *.png
 
 # kit links (bootstrap); blobs live in harness/
-.cursor/
+.cursor/*
+!.cursor/skills/
+.cursor/skills/*
+!.cursor/skills/dump-distribution-cf/
+!.cursor/skills/dump-distribution-cf/**
+!.cursor/commands/
+.cursor/commands/*
+!.cursor/commands/dump-distribution-cf.md
 .agents/
 .claude/
 tools/mailbox/

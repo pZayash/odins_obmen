@@ -12,6 +12,7 @@
   `8.x.x.x` в доке
 - Версия подсистемы `YYMMDD.XX`: [docs/ai/versioning.md](docs/ai/versioning.md);
   перед коммитом `python tools/bump-version.py` (или hook `.githooks`)
+  Поставка `.cf`: скилл `dump-distribution-cf` (сначала load ИБ из репо)
 
 ## Запрещено
 
