@@ -181,6 +181,12 @@
 				</LabelField>
 			</ChildItems>
 		</Table>
+		<Button name="ПоказатьРазмерОчереди" id="55">
+			<Type>Hyperlink</Type>
+			<HorizontalStretch>true</HorizontalStretch>
+			<CommandName>Form.Command.ПоказатьРазмерОчереди</CommandName>
+			<ExtendedTooltip name="ПоказатьРазмерОчередиРасширеннаяПодсказка" id="56"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1">
@@ -231,4 +237,16 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ПоказатьРазмерОчереди" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать размер очереди</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ПоказатьРазмерОчереди</Action>
+			<Representation>Text</Representation>
+		</Command>
+	</Commands>
 </Form>
