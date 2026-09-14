@@ -15,10 +15,13 @@ ConfigDumpInfo.xml
 .cursor/*
 !.cursor/skills/
 .cursor/skills/*
+!.cursor/skills/obm-sync/
+!.cursor/skills/obm-sync/**
 !.cursor/skills/dump-distribution-cf/
 !.cursor/skills/dump-distribution-cf/**
 !.cursor/commands/
 .cursor/commands/*
+!.cursor/commands/obm-sync.md
 !.cursor/commands/dump-distribution-cf.md
 .agents/
 .claude/

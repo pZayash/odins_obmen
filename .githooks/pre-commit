@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # pre-commit: поднять версию подсистемы (YYMMDD.XX) и добавить в индекс.
-# Отключить: SKIP_VERSION_BUMP=1 git commit …
+# Отключить (только amend без новой версии): SKIP_VERSION_BUMP=1 git commit …
+# На обычном коммите (feat, fix, obm-sync) флаг запрещён.
 # Канон: docs/ai/versioning.md
 
 set -euo pipefail

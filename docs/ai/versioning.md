@@ -22,7 +22,7 @@
 
 ## Где лежит
 
-Одно место: [`src/cf/Configuration.xml`](src/cf/Configuration.xml) → `<Version>`.
+Одно место: [`src/cf/Configuration.xml`](../../src/cf/Configuration.xml) → `<Version>`.
 
 После загрузки в ИБ это `Метаданные.Версия` (уходит в пакеты обмена как
 `обОтправителе.Версия`).
@@ -44,7 +44,7 @@ python tools/bump-version.py --self-test
 База счёта — версия в **HEAD**, не «на глаз». Если в working tree уже стоит
 вычисленный следующий номер — скрипт ничего не пишет.
 
-Автоматически: git hook [`.githooks/pre-commit`](.githooks/pre-commit)
+Автоматически: git hook [`.githooks/pre-commit`](../../.githooks/pre-commit)
 вызывает скрипт и делает `git add src/cf/Configuration.xml`.
 
 Включить хуки один раз (локальный git config, в репозиторий не коммитится):
@@ -53,19 +53,24 @@ python tools/bump-version.py --self-test
 git config core.hooksPath .githooks
 ```
 
-Отключить на один коммит (amend, аварийно):
+Отключить на один коммит (**только amend** без новой версии / без `.cf`):
 
 ```bash
 SKIP_VERSION_BUMP=1 git commit …
 SKIP_CF_DUMP=1 git commit …          # без файла поставки .cf
 ```
 
+`SKIP_VERSION_BUMP` на обычном коммите (в т.ч. obm-sync) **запрещён**.
+Агент не ставит флаг «чтобы не зацепить ChildObjects».
+
 Хук **стейджит весь** `Configuration.xml`. Грязный ChildObjects от obm-sync
-уедет в тот же коммит — либо сначала разбери sync, либо `SKIP_VERSION_BUMP`.
+уедет в тот же коммит — это нормально: класть файл в коммит фичи или один
+коммит на пачку. Пайплайн: [`.obm-sync/readme.md`](../../.obm-sync/readme.md)
+(bump → load → дым → коммит с хуками).
 
 ## После каждого коммита
 
-Пост-коммит [`.githooks/post-commit`](.githooks/post-commit) собирает
+Пост-коммит [`.githooks/post-commit`](../../.githooks/post-commit) собирает
 **файл поставки** (полный дистрибутив `.cf`, без `.cfu`) из текущей ИБ
 (`IB_CONNECTION` в `.env`):
 
@@ -104,6 +109,13 @@ bash tools/dump-distribution-cf.sh
 ## Для агентов
 
 - Не править `<Version>` вручную, если хук включён.
-- Хук не включён → перед коммитом `python tools/bump-version.py`.
-- Amend того же коммита без новой версии: `SKIP_VERSION_BUMP=1`.
-- Amend без пересборки `.cf`: `SKIP_CF_DUMP=1`.
+- Перед загрузкой в ИБ и коммитом: `python tools/bump-version.py`. Если в
+  working tree уже следующий номер относительно HEAD — скрипт ничего не
+  пишет; pre-commit тогда no-op по версии.
+- Хук не включён → тот же скрипт обязателен, иначе коммит без новой версии.
+- `core.hooksPath` = `.githooks`. Нет хука — не коммитить «как есть».
+- `SKIP_VERSION_BUMP=1` — только amend того же коммита без новой версии.
+  Obm-sync, feat, fix — флаг не ставить.
+- `SKIP_CF_DUMP=1` — amend без `.cf` или промежуточный коммит в пачке
+  (ИБ ещё не на этой версии). Последний коммит пачки после load — dump
+  включён.
